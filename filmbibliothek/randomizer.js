@@ -1,4 +1,4 @@
-<hr>01.1/1',
+var film1 = ['Mord ist ihr Hobby <hr>01.1/1', 
 'Mord ist ihr Hobby <hr>01.1/2',
 'Mord ist ihr Hobby <hr>01.1/3',
 'Mord ist ihr Hobby <hr>01.2/1',
@@ -565,7 +565,6 @@ var film6 = [ 'Little Amadeus <hr>4',
 
 
 
-
    
       
        
@@ -585,6 +584,3 @@ var film6 = [ 'Little Amadeus <hr>4',
 
 
 
-
-
-  //      document.write("Hallo <hr> Hannes")
