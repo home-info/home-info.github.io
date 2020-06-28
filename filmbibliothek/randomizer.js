@@ -1,4 +1,4 @@
-var film1 = [ 'Mord ist ihr Hobby <hr>01.1/1',
+<hr>01.1/1',
 'Mord ist ihr Hobby <hr>01.1/2',
 'Mord ist ihr Hobby <hr>01.1/3',
 'Mord ist ihr Hobby <hr>01.2/1',
@@ -553,7 +553,16 @@ var film6 = [ 'Little Amadeus <hr>4',
 'Familie Feuerstein <hr>3/2',
 'Familie Feuerstein <hr>3/3',
 'Familie Feuerstein <hr>3/4',
-'Familie Feuerstein <hr>3/5',]
+'Familie Feuerstein <hr>3/5',
+'Der Mann in Mamis Bett <hr>Doris Day (Patchworkfamilie)',
+'My Fair Lady <hr>mit Audrey Hepburn',
+'The Crown <hr>Staffel 1 / Disc 1',
+'The Crown <hr>Staffel 1 / Disc 2',
+'The Crown <hr>Staffel 1 / Disc 3',
+'The Crown <hr>Staffel 1 / Disc 4',
+'Der Gendarm von Saint-Tropez <hr>Louis de Funès',
+'Nicht mit mir, meine Herren <hr>Doris Day (Hummer & Eisenbahn)',]
+
 
 
 
