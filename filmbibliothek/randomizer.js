@@ -4,17 +4,17 @@ var film[3] = 'Die dritten Titten<hr>Teil 1';
 var film[0] = 'Der Schuh des Manitu';
  
  
-let zahl;
-	zahl = Math.floor( Math.random() * 4 + 0 )
+//let zahl;
+//	zahl = Math.floor( Math.random() * 4 + 0 )
  
 //var farben = new Array('rot', 'orange', 'gelb', 'grün', 'blau');
 
 
-document.write(film[zahl])
+//document.write(film[zahl])
 
 
 
-
+document.writeln("Halllo")
 
       
      
