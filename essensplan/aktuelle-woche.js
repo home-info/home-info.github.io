@@ -377,3 +377,4 @@ dz == 2912 ? document.writeln("<a href='#52'><button style='font-size:inherit;'>
 dz == 3012 ? document.writeln("<a href='#52'><button style='font-size:inherit;'>Aktuelle Woche</button></a>") :
 dz == 3112 ? document.writeln("<a href='#52'><button style='font-size:inherit;'>Aktuelle Woche</button></a>") :
 document.writeln("<a href='#52'><button style='font-size:inherit;'>Aktuelle Woche</button></a>")
+
