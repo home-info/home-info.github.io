@@ -36,10 +36,10 @@ for number in indices:
 html_code_list = []
 
 for d in liste_final:
-    html_code_list.append("<tr><td style='border-bottom-width:2px; border-bottom-style:dashed; border-bottom-color:#000000; border-left-style:none; border-right-style:none'>" + d[0] + "</td><td style='border-bottom-width:2px; border-bottom-style:dashed; border-bottom-color:#000000; border-left-style:none; border-right-style:none'>" + d[1] + "</td><td style='border-bottom-width:2px; border-bottom-style:dashed; border-bottom-color:#000000; border-left-style:none; border-right-style:none'><center>" + d[2] + "</center></td></tr>")
+    html_code_list.append("<tr class='ro3'><td style='text-align:left;width:0.407cm; ' class='ce1'> </td><td style='text-align:left;width:4.193cm; ' class='ce1'> </td><td style='text-align:left;width:15.305cm; ' class='ce6'><p>"+d[0]+"</p></td><td style='text-align:left;width:14.55cm; ' class='ce6'><p>"+d[1]+"</p></td><td style='text-align:left;width:4.057cm; ' class='ce11'><p>"+d[2]+"</p></td><td style='text-align:left;width:7.999cm; ' class='ce1'> </td></tr>")
 
 html_code = "".join(html_code_list)
-
+html_code = html_code.replace(" & ","&amp;")
 
 vorlage = open("vorlage.txt", "r")
 vorlage_lines = []
@@ -49,11 +49,11 @@ vorlage.close()
 
 filmbib_code = []
 
-datum = str(datetime.today().strftime('%d.%m.%Y')) + "</p>"
+datum = str(datetime.today().strftime('%d.%m.%Y'))
 
-filmbib = open("../filmbibliothek.html", "w")
+filmbib = open("filmbibliothek.xhtml", "w")
 for v_line in vorlage_lines:
-    filmbib_line = v_line.replace("#DATUM</p>", datum).replace("#INHALT\n", html_code)
+    filmbib_line = v_line.replace("#DATUM", datum).replace("#INHALT", html_code)
     filmbib_code.append(filmbib_line)
 
 for code_line in filmbib_code:
