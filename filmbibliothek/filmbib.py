@@ -51,7 +51,7 @@ filmbib_code = []
 
 datum = str(datetime.today().strftime('%d.%m.%Y')) + "</p>"
 
-filmbib = open("filmbibliothek.html", "w")
+filmbib = open("../filmbibliothek.html", "w")
 for v_line in vorlage_lines:
     filmbib_line = v_line.replace("#DATUM</p>", datum).replace("#INHALT\n", html_code)
     filmbib_code.append(filmbib_line)
