@@ -36,7 +36,7 @@ for number in indices:
 html_code_list = []
 
 for d in liste_final:
-    html_code_list.append("<tr><td>"+d[0]+"</td><td>"+d[1]+"</td><td>"+d[2].replace(" ", "&nbsp;")+"</td></tr>")
+    html_code_list.append("<tr><td>"+d[0]+"</td><td>"+d[1]+"</td><td>"+d[2].replace(" ", "&nbsp;")+"</td></tr>\n")
 
 html_code = "".join(html_code_list)
 html_code = html_code.replace(" & "," &amp; ")
