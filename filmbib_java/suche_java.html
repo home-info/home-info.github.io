@@ -1,4 +1,4 @@
-<!DOCTYPE HTML><html>	<head>		<title>Filmbibliothek</title>		<meta charset='utf-8' />		<meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no' />		<link rel='stylesheet' href='assets/css/main.css' />		<noscript><link rel='stylesheet' href='assets/css/noscript.css' /></noscript>	</head>	<body class='is-preload'>		<!-- Wrapper -->			<div id='wrapper' class='fade-in'>				<!-- Intro -->					<div id='intro'>						<h1>Die Film<br />bibliothek</h1>						<ul class='actions'>							<li><a href='#header' class='button icon solid solo fa-arrow-down scrolly'>Continue</a></li>						</ul>					</div>				<!-- Header -->					<header id='header'>						<a href='index.html' class='logo'>Filmbibliothek</a>					</header>				<!-- Nav -->					<!-- Nav -->					<nav id='nav'>						<ul class='links'>							<li><a href='./index.html'>Filme</a></li>							<li class='active'><a href='#'>Suchen</a></li><!---							<li><a href='elements.html'>Elements Reference</a></li>-->						</ul>					</nav>				<!-- Main -->					<div id='main'>						<!-- Post -->							<section class='post'>								<header class='major'>									<span class='date'>21.03.2023</span>									<h1>Suchen &amp; Finden</h1>								</header><section><label id='aufforderung' for='name'>Suchbegriff eingeben</label><input type='text' id='search-input' placeholder=''></input> <br><button id='searchbutton' onclick='search()'>Suche starten</button><br><br><br></section>										<!-- Results Table --><div class='table-wrapper'>	<table>		<thead>			<tr>				<th>Titel</th><th>Info</th><th>Nr.</th>			</tr>		</thead>		<tbody id='results'>		</tbody>	</table><script>
+<!DOCTYPE HTML><html>	<head>		<title>Filmbibliothek</title>		<meta charset='utf-8' />		<meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no' />		<link rel='stylesheet' href='assets/css/main.css' />		<noscript><link rel='stylesheet' href='assets/css/noscript.css' /></noscript>	</head>	<body class='is-preload'>		<!-- Wrapper -->			<div id='wrapper' class='fade-in'>				<!-- Intro -->					<div id='intro'>						<h1>Die Film<br />bibliothek</h1>						<ul class='actions'>							<li><a href='#header' class='button icon solid solo fa-arrow-down scrolly'>Continue</a></li>						</ul>					</div>				<!-- Header -->					<header id='header'>						<a href='index.html' class='logo'>Filmbibliothek</a>					</header>				<!-- Nav -->					<!-- Nav -->					<nav id='nav'>						<ul class='links'>							<li><a href='./index.html'>Filme</a></li>							<li class='active'><a href='#'>Suchen</a></li><!---							<li><a href='elements.html'>Elements Reference</a></li>-->						</ul>					</nav>				<!-- Main -->					<div id='main'>						<!-- Post -->							<section class='post'>								<header class='major'>									<span class='date'>22.03.2023</span>									<h1>Suchen &amp; Finden</h1>								</header><section><label id='aufforderung' for='name'>Suchbegriff eingeben</label><input type='text' id='search-input' placeholder=''></input> <br><button id='searchbutton' onclick='search()'>Suche starten</button><br><br><br></section>										<!-- Results Table --><div class='table-wrapper'>	<table>		<thead>			<tr>				<th>Titel</th><th>Info</th><th>Nr.</th>			</tr>		</thead>		<tbody id='results'>		</tbody>	</table><script>
 var all_films = [
 {title: '1 1/2 Ritter auf der Suche nach der hinreißenden Herzelinde', info: '', loc: 'A&nbsp;100'},
 {title: '7 Zwerge — Männer allein im Wald', info: '', loc: 'A&nbsp;101'},
@@ -16,6 +16,9 @@ var all_films = [
 {title: 'Anna — Der Film', info: '', loc: 'A&nbsp;244'},
 {title: 'Arthur, der Engel', info: '', loc: 'B&nbsp;1'},
 {title: 'Auf der Suche nach dem goldenen Kind', info: '', loc: 'A&nbsp;264'},
+{title: 'Auf die stürmische Art', info: 'Sandra Bullock & Ben Affleck', loc: 'B&nbsp;183'},
+{title: 'Aufbruch zum Mond', info: 'Bonus-DVD', loc: 'B&nbsp;180'},
+{title: 'Aufbruch zum Mond', info: 'Hauptfilm', loc: 'B&nbsp;179'},
 {title: 'Balduin, das Nachtgespenst', info: 'Louis de Funès', loc: 'A&nbsp;143'},
 {title: 'Ballet Shoes', info: 'Disc 1 — Film', loc: 'A&nbsp;287'},
 {title: 'Ballet Shoes', info: 'Disc 2 — Bonus', loc: 'A&nbsp;288'},
@@ -137,6 +140,7 @@ var all_films = [
 {title: 'Die Alleinseglerin', info: '', loc: 'A&nbsp;248'},
 {title: 'Die Berufung', info: 'Ihr Kampf für Gerechtigkeit', loc: 'B&nbsp;118'},
 {title: 'Die Braut, die sich nicht traut', info: '', loc: 'A&nbsp;336'},
+{title: 'Die dunkelste Stunde — Niemals aufgeben. Nie. Nie. Nie.', info: '', loc: 'B&nbsp;181'},
 {title: 'Die Eiskönigin — Olaf taut auf', info: 'mit Kurzfilm »Partyfieber«', loc: 'A&nbsp;113'},
 {title: 'Die Eiskönigin — Version zum Mitsingen', info: '', loc: 'A&nbsp;112'},
 {title: 'Die Eiskönigin — Völlig unverfroren', info: '', loc: 'A&nbsp;111'},
@@ -173,6 +177,7 @@ var all_films = [
 {title: 'Drei Haselnüsse für Aschenbrödel', info: 'Weihnachtsfilm', loc: 'A&nbsp;437'},
 {title: 'Dumbledore’s Geheimnisse', info: 'Phantastische Tierwesen [3]', loc: 'B&nbsp;122'},
 {title: 'e-Mail für Dich', info: '', loc: 'A&nbsp;328'},
+{title: 'Ein Chef zum Velieben — Two Weeks Notice', info: 'Sandra Bullock & Hugh Grant', loc: 'B&nbsp;184'},
 {title: 'Ein Pyjama für zwei', info: 'Doris Day (VIP)', loc: 'A&nbsp;133'},
 {title: 'Ein Schweinchen namens Babe', info: '', loc: 'A&nbsp;93'},
 {title: 'Ein Sommer in Florida', info: 'Elvis Presley', loc: 'B&nbsp;84'},
@@ -475,6 +480,8 @@ var all_films = [
 {title: 'Mord ist ihr Hobby', info: '12.2/1', loc: 'A&nbsp;70'},
 {title: 'Mord ist ihr Hobby', info: '12.2/2', loc: 'A&nbsp;71'},
 {title: 'Mord ist ihr Hobby', info: '12.2/3', loc: 'A&nbsp;72'},
+{title: 'Mord ist ihr Hobby — Eine Zeugin verschwindet', info: 'Spielfilm [01–1]', loc: 'B&nbsp;177'},
+{title: 'Mord ist ihr Hobby — Eine zum Sterben schöne Geschichte', info: 'Spielfilm [01–2]', loc: 'B&nbsp;178'},
 {title: 'Moritz in der Litfaßsäule', info: '', loc: 'A&nbsp;421'},
 {title: 'Mother&apos;s Day', info: '', loc: 'A&nbsp;356'},
 {title: 'Motiviere dein Pferd', info: '', loc: 'A&nbsp;228'},
@@ -671,6 +678,7 @@ var all_films = [
 {title: 'Who&apos;s afraid of Virginia Woolf?', info: '', loc: 'A&nbsp;278'},
 {title: 'Wickie und die starken Männer', info: '2 Zeichentrick-Folgen', loc: 'A&nbsp;181'},
 {title: 'Wickie und die starken Männer', info: 'Bully', loc: 'A&nbsp;91'},
+{title: 'Wie klaut man eine Million?', info: 'Audrey Hepburn', loc: 'B&nbsp;182'},
 {title: 'Wild in the Country — Lied des Rebellen', info: 'Elvis Presley', loc: 'B&nbsp;129'},
 {title: 'Willi will&apos;s wissen', info: 'Abenteuer & Dunkle Höhlen', loc: 'B&nbsp;25'},
 {title: 'Willi will&apos;s wissen', info: 'Fähre & Hafen Hamburg', loc: 'B&nbsp;27'},
