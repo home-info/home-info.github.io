@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Time Converter</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 5px;
+    }
+
+    button {
+      display: block;
+      margin: 10px 0;
+      padding: 10px;
+    }
+
+    #result {
+      font-weight: bold;
+    }
+
+    /* Responsive Styles */
+    @media (max-width: 600px) {
+      body {
+        padding: 10px;
+      }
+
+      input[type="text"] {
+        width: 100%;
+        padding: 5px;
+      }
+    }
+  </style>
+  <script>
+    function convertTime() {
+      var timeInput = document.getElementById("time").value;
+      var timeParts = timeInput.split(":");
+      var minutes = parseInt(timeParts[0]);
+      var seconds = parseInt(timeParts[1]);
+      
+      var decimalTime = minutes + (seconds / 60);
+      
+      document.getElementById("result").innerHTML = "Decimal Time: " + decimalTime;
+    }
+  </script>
+</head>
+<body>
+  <h1>Time Converter</h1>
+  <label for="time">Enter time in min:sec format (e.g., 3:45):</label>
+  <input type="text" id="time">
+  <button onclick="convertTime()">Convert</button>
+  <p id="result"></p>
+</body>
+</html>
