@@ -33,15 +33,17 @@
       font-weight: bold;
     }
 
-    /* Responsive Styles */
-    @media (max-width: 600px) {
+    /* Smartphone Styles */
+    @media (max-width: 767px) {
       body {
         padding: 10px;
       }
-
-      input[type="text"] {
-        width: 100%;
-        padding: 5px;
+    }
+    
+    /* Hide on larger screens */
+    @media (min-width: 768px) {
+      body {
+        display: none;
       }
     }
   </style>
