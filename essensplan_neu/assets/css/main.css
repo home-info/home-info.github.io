@@ -1,6 +1,11 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
 
+
+
+
+
+
 /*
 	Massively by HTML5 UP
 	html5up.net | @ajlkn
@@ -4697,3 +4702,62 @@ input, select, textarea {
 		}
 
 	}
+
+	ul {
+            margin-left: 35px; /* Abstand des gesamten <ul> zur linken Seite */
+            list-style-type: square; /* Ändert das Symbol zu einem Quadrat */
+        }
+
+        details {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in-out;
+        }
+
+        details[open] {
+            border: 1px solid #ddd;
+            border-color: #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        summary {
+            cursor: pointer;
+            /*font-size: 18px;
+            font-weight: bold;*/
+            color: #333;
+            display: flex; /* Ermöglicht flexibles Layout */
+            align-items: center; /* Zentriert Symbol und Text */
+            list-style: none; /* Entfernt das Standard-Dreieck */
+        }
+
+	details summary::-webkit-details-marker {
+  display:none;
+}
+
+        summary::before {
+            content: '➕';
+            margin-right: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        details[open] summary::before {
+            content: '➖'; /* Symbol für geöffnet */
+            transform: rotate(180deg);
+        }
+
+        p {
+            margin: 0;
+            padding: 10px 0 0;
+            color: #555;
+        }
+
+        @media (max-width: 600px) {
+            summary {
+                font-size: 16px;
+            }
+        }

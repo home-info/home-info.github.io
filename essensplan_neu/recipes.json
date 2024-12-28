@@ -1,0 +1,1113 @@
+{
+  "recipes": [
+    {
+      "title": "Orecchiette mit Linsen",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        0
+      ],
+      "source": "Vegan (84)",
+      "servings": 4,
+      "ingredients": [
+        "200 g Belugalinsen",
+        "3 Frühlingszwiebeln",
+        "200 g Blaue Trauben",
+        "350 g Orecchiette",
+        "2 EL Pinienkerne",
+        "Olivenöl",
+        "Zucker",
+        "Balsamico",
+        "Salz",
+        "Pfeffer"
+      ]
+    },
+    {
+      "title": "Rote-Linsen-Suppe",
+      "time_tag": [
+        0
+      ],
+      "season_tag": [
+        0
+      ],
+      "source": "McVeg (50)",
+      "servings": 2,
+      "ingredients": [
+        "1 Zwiebel",
+        "1 Karotte",
+        "150 g Rote Linsen",
+        "2 EL Sahne",
+        "500 ml Gemüsebrühe",
+        "Salz",
+        "Pfeffer"
+      ]
+    },
+    {
+      "title": "Sauerkraut-Paprika-Suppe",
+      "time_tag": [
+        0
+      ],
+      "season_tag": [
+        3,
+        4
+      ],
+      "source": "McVeg (52)",
+      "servings": 2,
+      "ingredients": [
+        "300 g Sauerkraut",
+        "1 Rote Paprika",
+        "1 große Kartoffel",
+        "6 EL Sahne",
+        "600 ml Gemüsebrühe",
+        "Kreuzkümmel",
+        "Paprika",
+        "Salz",
+        "Pfeffer"
+      ]
+    },
+    {
+      "title": "Rotkohlsuppe mit Zimtcroûtons",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        4
+      ],
+      "source": "Ordner / Winter / Suppen",
+      "servings": 4,
+      "ingredients": [
+        "1 große Zwiebel",
+        "100 g Kartoffeln",
+        "500 g Rotkohl",
+        "200 ml Rotwein",
+        "Brühe",
+        "Orangensaft",
+        "2 Äpfel",
+        "20 g Ingwer",
+        "Sahne",
+        "Lorbeer",
+        "Nelken",
+        "Zimtblüten",
+        "Wacholderbeeren",
+        "Piment",
+        "Pfeffer",
+        "Muskat",
+        "Zimt",
+        "Brot"
+      ]
+    },
+    {
+      "title": "Krautstrudel",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        3,
+        4
+      ],
+      "source": "VegRegSais (160)",
+      "servings": 4,
+      "ingredients": [
+        "Strudelteig (Mehl; Wasser; Öl; Salz)",
+        "1 Zwiebel",
+        "0.5 Kohlkopf",
+        "Salz",
+        "Öl",
+        "Kümmel"
+      ]
+    },
+    {
+      "title": "Tortilla mit Zwiebeln",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        0
+      ],
+      "source": "Mediterrane Küche (66)",
+      "servings": 4,
+      "ingredients": [
+        "Öl",
+        "6 Kartoffeln",
+        "3 Zwiebeln",
+        "6 Eier",
+        "Salz",
+        "Pfeffer",
+        "Kirschtomaten"
+      ]
+    },
+    {
+      "title": "Gnocchi mit Fenchel und Tomaten",
+      "time_tag": [
+        0
+      ],
+      "season_tag": [
+        0
+      ],
+      "source": "McVeg (70)",
+      "servings": 2,
+      "ingredients": [
+        "1 Fenchel",
+        "4 Tomaten",
+        "300 g Gnocchi",
+        "Joghurt",
+        "Tamari",
+        "Oregano",
+        "Cayenne-Pfeffer",
+        "Salz",
+        "Pfeffer"
+      ]
+    },
+    {
+      "title": "Bester vegetarischer Nudelauflauf",
+      "time_tag": [
+        0
+      ],
+      "season_tag": [
+        0
+      ],
+      "source": "Ordner / Winter / Hauptgerichte",
+      "servings": 4,
+      "ingredients": [
+        "500 g Penne",
+        "Tomatenmark",
+        "2 Zehen Knoblauch",
+        "400 ml Sahne",
+        "Kirschtomaten",
+        "250 g Reibekäse",
+        "100 ml Öl",
+        "italienische Kräuter",
+        "Salz",
+        "Pfeffer"
+      ]
+    },
+    {
+      "title": "Wirsing mit Bandnudeln",
+      "time_tag": [
+        0
+      ],
+      "season_tag": [
+        4
+      ],
+      "source": "McVeg (79)",
+      "servings": 2,
+      "ingredients": [
+        "400 g Wirsing",
+        "1 Zwiebel",
+        "Muskat",
+        "250 g Bandnudeln",
+        "3 EL Joghurt",
+        "4 EL Sahne"
+      ]
+    },
+    {
+      "title": "Chili sin Carne",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        0
+      ],
+      "source": "Vegan doch mal (224)",
+      "servings": 4,
+      "ingredients": [
+        "100 g Sojaschnetzel",
+        "Brühe",
+        "4 Kartoffeln",
+        "1 Zwiebel",
+        "1 Knoblauchzehe",
+        "2 Paprika",
+        "1 Chili",
+        "1 große Dose weiße Bohnen",
+        "1 große Dose Kidney-Bohnen",
+        "Tomatenmark",
+        "2 Dosen stückige Tomaten"
+      ]
+    },
+    {
+      "title": "Reissuppe",
+      "time_tag": [
+        0
+      ],
+      "season_tag": [
+        0
+      ],
+      "source": "",
+      "servings": 2,
+      "ingredients": [
+        "Reis",
+        "Buttergemüse",
+        "Gemüsebrühe"
+      ]
+    },
+    {
+      "title": "Asia-Bulgur",
+      "time_tag": [
+        0
+      ],
+      "season_tag": [
+        0
+      ],
+      "source": "McVeg (60)",
+      "servings": 2,
+      "ingredients": [
+        "400 g Chinakohl",
+        "180 g Mungobohnen",
+        "1 kleines Stück Ingwer",
+        "100 g Bulgur",
+        "200 g Räuchertofu",
+        "Sahne",
+        "Tamari",
+        "Currypaste",
+        "Salz",
+        "Pfeffer",
+        "Zitronensaft",
+        "Ahornsirup"
+      ]
+    },
+    {
+      "title": "Salat mit Halloumi und Weintrauben",
+      "time_tag": [
+        0
+      ],
+      "season_tag": [
+        1,
+        2,
+        3
+      ],
+      "source": "Mediterrane Küche (98)",
+      "servings": 2,
+      "ingredients": [
+        "150 g Blattsalat",
+        "75 g Grüne Trauben",
+        "75 g Rote Trauben",
+        "250 g Halloumi",
+        "Öl",
+        "Zitronensaft",
+        "Zucker",
+        "Salz",
+        "Pfeffer",
+        "frischer Thymian oder Dill"
+      ]
+    },
+    {
+      "title": "Pistou",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        3,
+        4
+      ],
+      "source": "Mediterrane Küche (56)",
+      "servings": 4,
+      "ingredients": [
+        "1 kleine Zucchini",
+        "1 Kartoffel",
+        "1 Zwiebel",
+        "1 Möhre",
+        "1 Dose gehackte Tomaten",
+        "Gemüsebrühe",
+        "50 g Erbsen",
+        "50 g grüne Bohnen",
+        "50 g Suppennudeln",
+        "75 ml Pesto",
+        "1 EL Tomatenmark",
+        "Salz",
+        "Pfeffer",
+        "Reibekäse"
+      ]
+    },
+    {
+      "title": "Orientales Kichererbsencurry",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        0
+      ],
+      "source": "Vegan & Schnell (35)",
+      "servings": 4,
+      "ingredients": [
+        "2 Zwiebeln. 2 Rote Paprika",
+        "Olivenöl",
+        "2 Dosen gehackte Tomaten",
+        "2 Dosen Kichererbsen",
+        "Tomatenmark",
+        "Kreuzkümmel",
+        "Curry",
+        "Chili",
+        "Joghurt"
+      ]
+    },
+    {
+      "title": "Kartoffelbrei Italian Style",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        0
+      ],
+      "source": "Vegan to go (88)",
+      "servings": 4,
+      "ingredients": [
+        "1 kg mehligkochende Kartoffeln",
+        "40 g getrocknete Tomaten in Öl",
+        "1 große Zwiebel",
+        "1 Knoblauchzehe",
+        "0.5 Chili",
+        "30 g Pinienkerne",
+        "Olivenöl",
+        "40 g schwarze Oliven in Scheiben",
+        "Basilikumblätter",
+        "Milch",
+        "Butter",
+        "Salz",
+        "Pfeffer"
+      ]
+    },
+    {
+      "title": "Rosenkohl mit Maronen",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        4
+      ],
+      "source": "Festliche Weihnachten (141)",
+      "servings": 4,
+      "ingredients": [
+        "500 g Maronen",
+        "1 kg Rosenkohl",
+        "30 g Butter",
+        "Muskat",
+        "Pfeffer",
+        "Salz",
+        "Brot oder Kartoffeln oder Klöße"
+      ]
+    },
+    {
+      "title": "Spanische Kartoffeln mit Zaziki",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        0
+      ],
+      "source": "",
+      "servings": 4,
+      "ingredients": [
+        "1 kg kleine Kartoffeln",
+        "2 Pck Magerquark",
+        "2 Pck Kräuterquark",
+        "1 Becher Joghurt",
+        "1 Gurke",
+        "Zazikigewürz",
+        "Salz",
+        "Pfeffer",
+        "Leinöl"
+      ]
+    },
+    {
+      "title": "Kichererbsen-Suppe",
+      "time_tag": [
+        0
+      ],
+      "season_tag": [
+        0
+      ],
+      "source": "McVeg (44)",
+      "servings": 2,
+      "ingredients": [
+        "1 Zwiebel",
+        "230 g Kichererbsen",
+        "240g Stückige Tomaten",
+        "Sahne",
+        "Brühe",
+        "Kreuzkümmel",
+        "Cayennepfeffer",
+        "Salz",
+        "Pfeffer"
+      ]
+    },
+    {
+      "title": "Sauerkraut-Spätzle",
+      "time_tag": [
+        0
+      ],
+      "season_tag": [
+        1,
+        3,
+        4
+      ],
+      "source": "McVeg (65)",
+      "servings": 2,
+      "ingredients": [
+        "250 g Spätzle",
+        "1 Zwiebel",
+        "400 g Sauerkraut",
+        "100 g Räuchertofu",
+        "Gemüsebrühe"
+      ]
+    },
+    {
+      "title": "Käse-Spätzle",
+      "time_tag": [
+        0
+      ],
+      "season_tag": [
+        1,
+        3,
+        4
+      ],
+      "source": "",
+      "servings": 2,
+      "ingredients": [
+        "250 g Spätzle",
+        "Butter",
+        "Reibekäse"
+      ]
+    },
+    {
+      "title": "Vegane, deftige Kartoffelsuppe",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        3,
+        4
+      ],
+      "source": "Ordner / Winter / Suppen",
+      "servings": 4,
+      "ingredients": [
+        "800 g Kartoffeln",
+        "1 Bund Suppengemüse",
+        "Brühe",
+        "200 g Räuchertofu",
+        "2 Zwiebeln",
+        "Öl",
+        "Salz",
+        "Pfeffer",
+        "Thymian",
+        "Knoblauch",
+        "Sojamilch",
+        "Hefeflocken"
+      ]
+    },
+    {
+      "title": "Kichererbsen Indian Style",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        0
+      ],
+      "source": "Vegan to go (106)",
+      "servings": 4,
+      "ingredients": [
+        "Pitabrote",
+        "1 Zwiebel",
+        "1 Chili",
+        "350g Kichererbsen",
+        "Ghee",
+        "100 g Tomatenmark",
+        "Agavendicksaft",
+        "Öl",
+        "Salz",
+        "Petersilie"
+      ]
+    },
+    {
+      "title": "Lasagne",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        4
+      ],
+      "source": "Vegan for fit (134)",
+      "servings": 4,
+      "ingredients": [
+        "Lasagneplatten",
+        "800 g Tofu natur",
+        "4 Zwiebeln",
+        "2 Knoblauchzehen",
+        "3 Möhren",
+        "Öl",
+        "1 Tube Tomatenmark",
+        "Oregano",
+        "Agavendicksaft",
+        "Rotwein",
+        "Salz",
+        "Pfeffer",
+        "Frischer Basilikum",
+        "Reibekäse"
+      ]
+    },
+    {
+      "title": "Gemüse-Ananas-Wok",
+      "time_tag": [
+        0
+      ],
+      "season_tag": [
+        0
+      ],
+      "source": "McVeg (68)",
+      "servings": 2,
+      "ingredients": [
+        "1 Glas Chinagemüse",
+        "Ananas",
+        "Mie-Nudeln",
+        "Sahne",
+        "Tamari"
+      ]
+    },
+    {
+      "title": "Kartoffel-Karotten-Auflauf",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        1,
+        3,
+        4
+      ],
+      "source": "VegRegSais (159)",
+      "servings": 4,
+      "ingredients": [
+        "8 große Kartoffeln",
+        "6 große Karotten",
+        "2 Knoblauchzehen",
+        "Passierte Tomaten",
+        "Kräuter",
+        "Reibekäse",
+        "Salz",
+        "Pfeffer"
+      ]
+    },
+    {
+      "title": "Muschelnudeln mit Tofu-Pesto-Füllung",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        4
+      ],
+      "source": "Vegan (81)",
+      "servings": 4,
+      "ingredients": [
+        "1 Zwiebel",
+        "2 Knoblauchzehen",
+        "400 g Stückige Tomaten",
+        "Oregano",
+        "250 g Große Muschelnudeln",
+        "2 Gläser Pesto",
+        "200 g Tofu"
+      ]
+    },
+    {
+      "title": "Chinakohlgemüse mit Dinklereis",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        4
+      ],
+      "source": "VegRegSais (163)",
+      "servings": 4,
+      "ingredients": [
+        "1 Tasse Dinkel (über Nacht einweichen)",
+        "1 Zwiebel",
+        "1 Chinakohl",
+        "1 Tasse Bohnen",
+        "passierte Tomaten",
+        "Italienische Kräuter"
+      ]
+    },
+    {
+      "title": "Lauch-Kartoffel-Käse-Suppe",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        4
+      ],
+      "source": "Ordner / Winter / Suppen",
+      "servings": 4,
+      "ingredients": [
+        "2 Zwiebeln",
+        "2 Möhren",
+        "4 Stangen Lauch",
+        "6 mittelgroße Kartoffeln",
+        "3 Pck. Schmelzkäse"
+      ]
+    },
+    {
+      "title": "Buschbohnen mit Räuchertofu",
+      "time_tag": [
+        0
+      ],
+      "season_tag": [
+        0
+      ],
+      "source": "McVeg (62)",
+      "servings": 2,
+      "ingredients": [
+        "1 Zwiebel",
+        "300 g Buschbohnen",
+        "Ingwer",
+        "200 g Reisnudeln",
+        "150 g Räuchertofu",
+        "Tamari",
+        "Apfelsaft",
+        "Currypaste"
+      ]
+    },
+    {
+      "title": "Lauchsuppe",
+      "time_tag": [
+        0
+      ],
+      "season_tag": [
+        3,
+        4
+      ],
+      "source": "Ordner / Sommer / Suppen",
+      "servings": 4,
+      "ingredients": [
+        "3 Stangen Lauch",
+        "200 g Sojageschnetzeltes",
+        "2 Zwiebeln",
+        "2 Pck. Hafersahne",
+        "Brühe",
+        "Hefeflocken"
+      ]
+    },
+    {
+      "title": "Vegetarische Tarte provençale",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        2,
+        3
+      ],
+      "source": "Ordner / Sommer / Hauptgerichte",
+      "servings": 4,
+      "ingredients": [
+        "Pizzateig",
+        "1 Rote Paprika",
+        "2 Knoblauchzehen",
+        "Getrocknete Tomaten",
+        "400 g Stückige Tomaten",
+        "Tomatenmark",
+        "Balsamico",
+        "1 Kleine Aubergine",
+        "Basilikum",
+        "3 Tomaten",
+        "2 Kleine Zucchini"
+      ]
+    },
+    {
+      "title": "Scharfe Linsensuppe mit Orangen-Kokos-Duft",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        0
+      ],
+      "source": "Ordner / Winter / Suppen",
+      "servings": 4,
+      "ingredients": [
+        "1 Chili",
+        "1 Zwiebel",
+        "1 Knoblauchzehe",
+        "200g Rote Linsen",
+        "Brühe",
+        "1 Orange",
+        "1 Dose Kokosmilch",
+        "50 Kokoschips"
+      ]
+    },
+    {
+      "title": "Linsen-Curry",
+      "time_tag": [
+        0
+      ],
+      "season_tag": [
+        0
+      ],
+      "source": "Vegan & Schnell (37)",
+      "servings": 4,
+      "ingredients": [
+        "400 g Räuchertofu",
+        "6 Frühlingszwiebeln",
+        "2 Knoblauchzehen",
+        "200 g Rote Linsen",
+        "1 Dose Kokosmilch",
+        "Öl",
+        "Kardamom",
+        "Kreuzkümmel",
+        "Curry",
+        "Salz",
+        "Pfeffer"
+      ]
+    },
+    {
+      "title": "Ciabatta-Salat mit Kirschtomaten",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        0
+      ],
+      "source": "Vegan to go (187)",
+      "servings": 4,
+      "ingredients": [
+        "2 Rote Zwiebeln",
+        "2 Knoblauchzehen",
+        "60 g Pinienkerne",
+        "6 EL Olivenöl",
+        "1 Ciabatta",
+        "500 g Tomaten",
+        "2 Avocados",
+        "Basilikum",
+        "Zitronensaft",
+        "Salz",
+        "Pfeffer"
+      ]
+    },
+    {
+      "title": "Schnelle Wintersuppe",
+      "time_tag": [
+        0
+      ],
+      "season_tag": [
+        4
+      ],
+      "source": "Ordner / Winter / Suppen",
+      "servings": 4,
+      "ingredients": [
+        "250 g Spätzle",
+        "2 Zwiebeln",
+        "2 Knoblauchzehen",
+        "1 Dose Stückige Tomaten",
+        "Brühe",
+        "Sahne",
+        "Baguette"
+      ]
+    },
+    {
+      "title": "Last Minute Pizza",
+      "time_tag": [
+        0
+      ],
+      "season_tag": [
+        0
+      ],
+      "source": "Vegan doch mal (222)",
+      "servings": 4,
+      "ingredients": [
+        "Pizzateig (400 g Dinkelmehl; Backpulver)",
+        "1 Tube Tomatenmark",
+        "Oregano",
+        "300 g Pizzagemüse",
+        "Reibekäse"
+      ]
+    },
+    {
+      "title": "Aloo Tikki (Indische Kartoffelpuffer)",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        1,
+        2,
+        3
+      ],
+      "source": "https://desikueche.wordpress.com/2020/12/05/aloo-tikki-indische-kartoffelpuffer/",
+      "servings": 4,
+      "ingredients": [
+        "400g Gekochte Kartoffeln",
+        "Reismehl oder gleichwertig",
+        "frische Minze",
+        "Koriander",
+        "Zitronensaft",
+        "Chili",
+        "Garam Masala",
+        "Grünes und Rotes Chutney"
+      ]
+    },
+    {
+      "title": "Gefüllte Muschelnudeln mit Spinatsoße",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        1,
+        2
+      ],
+      "source": "Ordner / Frühling / Hauptgerichte",
+      "servings": 4,
+      "ingredients": [
+        "140 g Muschelnudeln",
+        "280 g Spinat",
+        "100 ml Sahne",
+        "100 g Sojahack",
+        "Brühe",
+        "Kräuter der Provence",
+        "Paprika",
+        "Tomatenmark",
+        "150 g Passierte Tomaten",
+        "50 g Reibekäse"
+      ]
+    },
+    {
+      "title": "Tomate-Mozzarella",
+      "time_tag": [
+        0
+      ],
+      "season_tag": [
+        2
+      ],
+      "source": "",
+      "servings": 2,
+      "ingredients": [
+        "Tomaten",
+        "2 Kugeln Mozzarella",
+        "Baguette",
+        "Balsamico",
+        "Öl",
+        "Salz",
+        "Pfeffer",
+        "Basilikum"
+      ]
+    },
+    {
+      "title": "Schnelle vegane Pho-Suppe",
+      "time_tag": [
+        0
+      ],
+      "season_tag": [
+        1,
+        3,
+        4
+      ],
+      "source": "Ordner / Winter / Suppen",
+      "servings": 4,
+      "ingredients": [
+        "2 L Brühe",
+        "400 g Breite Suppennudeln",
+        "1 Knoblauchzehe",
+        "2 Zwiebeln",
+        "Sojasoße",
+        "Gewürzmischung 5 Spices",
+        "Ingwer",
+        "500 g Räuchertofu",
+        "1 Bund Basilikum",
+        "1 Bund Koriander",
+        "Sprossen",
+        "Erdnüsse",
+        "1 Chili"
+      ]
+    },
+    {
+      "title": "Griechische Zitronensuppe",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        0
+      ],
+      "source": "Mediterrane Küche (57)",
+      "servings": 4,
+      "ingredients": [
+        "1.75 L Brühe",
+        "115 g Kritharakia-Nudeln",
+        "3 Eier",
+        "Zitronensaft",
+        "Salz",
+        "Pfeffer"
+      ]
+    },
+    {
+      "title": "Wilde Wirsingpfanne mit Kartoffeln",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        4
+      ],
+      "source": "Ordner / Winter / Hauptgerichte",
+      "servings": 4,
+      "ingredients": [
+        "Bratöl",
+        "2 Zwiebeln",
+        "2 Knoblauchzehen",
+        "2 kleine Stück Ingwer",
+        "Kräuter der Provence",
+        "1 kg Wirsing",
+        "1 L Brühe",
+        "1 kg festkochende Kartoffeln",
+        "Salz",
+        "Pfeffer"
+      ]
+    },
+    {
+      "title": "Kartoffelpfanne mit Schafskäse",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        0
+      ],
+      "source": "Großmutters Küche (30)",
+      "servings": 4,
+      "ingredients": [
+        "Ghee",
+        "2 Zwiebeln",
+        "1 Stange Lauch",
+        "1 Rote Paprika",
+        "1 Grüne Paprika",
+        "1 Dose Kidneybohnen",
+        "1 Dose Mais",
+        "Brühe",
+        "1 Dose Gehackte Tomaten",
+        "1 Bund Oregano",
+        "1 Bund Basilikum",
+        "800 g gekochte Kartoffeln",
+        "300 g Schafskäse"
+      ]
+    },
+    {
+      "title": "Mexikanischer Tomatenauflauf",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        0
+      ],
+      "source": "Vegetarische Küche (158)",
+      "servings": 4,
+      "ingredients": [
+        "2 Zwiebeln",
+        "2 Knoblauchzehen",
+        "2 Dosen gehackte Tomaten",
+        "1 Grüne Paprika",
+        "1 Dose Mais",
+        "Tortilla-Chips",
+        "150 g Reibekäse",
+        "250 g Saure Sahne"
+      ]
+    },
+    {
+      "title": "Paprika-Bratkartoffeln (Kartoffeln vorher kochen)",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        3,
+        4
+      ],
+      "source": "Vegan to go (78)",
+      "servings": 4,
+      "ingredients": [
+        "750 g festkochende Kartoffeln",
+        "1 Rote Paprika",
+        "1 Große Zwiebel",
+        "Petersilie",
+        "2 Frühlingszwiebeln",
+        "Rosenscharfer Paprika"
+      ]
+    },
+    {
+      "title": "Gnocchi mit Paprika und Frühlingszwiebeln",
+      "time_tag": [
+        0
+      ],
+      "season_tag": [
+        2,
+        3
+      ],
+      "source": "McVeg (70)",
+      "servings": 2,
+      "ingredients": [
+        "2 Paprika",
+        "1 Bund Frühlingszwiebeln",
+        "350g Gnocchi",
+        "Joghurt",
+        "Tamari",
+        "Oregano",
+        "Thymian"
+      ]
+    },
+    {
+      "title": "Vegane Hühnersuppe",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        3,
+        4
+      ],
+      "source": "Ordner / Winter / Suppen",
+      "servings": 4,
+      "ingredients": [
+        "1 Bund Suppengemüse",
+        "4 Tomaten",
+        "200 g Räuchertofu",
+        "Tamari",
+        "Brühe",
+        "Petersilie"
+      ]
+    },
+    {
+      "title": "Pastasalat",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        2
+      ],
+      "source": "slowly veggie 3 (99)",
+      "servings": 4,
+      "ingredients": [
+        "250 g Farfalle",
+        "200 g mehligkochende Kartoffeln",
+        "100 ml Kokosmilch",
+        "Limettensaft",
+        "mittelscharfer Senf",
+        "grobkörniger Senf",
+        "1 Bund Minze",
+        "400 g junge Erbsen",
+        "Rosa Pfeffer Beeren"
+      ]
+    },
+    {
+      "title": "Nudelsuppe mit Tofu",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        2,
+        3
+      ],
+      "source": "Vegan (70)",
+      "servings": 4,
+      "ingredients": [
+        "200 g Reisnudeln",
+        "Asiasoaße",
+        "400 g Räuchertofu",
+        "1 Glas Minimaiskölbchen",
+        "300 g Pak Choi",
+        "gelbe Currypaste",
+        "Brauner Zucker",
+        "Brühe",
+        "Trockener Weißwein",
+        "Reiswein",
+        "1 Hand Koriander"
+      ]
+    }
+  ]
+}
