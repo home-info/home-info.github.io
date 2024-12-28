@@ -20,9 +20,9 @@ function getCustomWeek() {
 // Dynamisch den Link erzeugen
 function generateLink() {
     const weekNumber = getCustomWeek();
-    const baseUrl = "wochen/woche-";
-    const link = `<a href="${baseUrl}${weekNumber}.html">Wochenansicht</a>`;
-    document.getElementById("speiseplan-link").innerHTML = link;
+    const baseUrl = "./woche-";
+    const link = `<a href="${baseUrl}${weekNumber}.html">Aktuelle Woche</a>`;
+    document.getElementById("speiseplan-link2").innerHTML = link;
 }
 
 // Sobald die Seite geladen ist, den Link erstellen
