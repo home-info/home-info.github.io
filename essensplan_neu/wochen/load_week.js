@@ -1,3 +1,6 @@
+// Globale Variable für die aktuelle Woche
+let currentWeek = getCustomWeek();
+
 // Funktion zum Laden und Einfügen des HTML-Codes
 function loadHTML(filePath, targetElementId) {
     fetch(filePath)
@@ -20,7 +23,7 @@ function loadHTML(filePath, targetElementId) {
         });
 }
 
-// Funktion zur Berechnung der Kalenderwoche (Freitag-Donnerstag)
+// Funktion zur Berechnung der aktuellen Woche (Freitag-Donnerstag)
 function getCustomWeek() {
     const today = new Date();
     const dayOfWeek = today.getDay(); // Sonntag = 0, Montag = 1, ..., Samstag = 6
@@ -40,15 +43,22 @@ function getCustomWeek() {
 }
 
 // Dynamisch den Link erzeugen
-function generateLink() {
-    const weekNumber = getCustomWeek();
+function generateLink(weekNumber) {
     const baseUrl = "./woche-";
-    const link = `${baseUrl}${weekNumber}.html`; // Korrigiert
+    const link = `${baseUrl}${weekNumber}.html`;
     return link;
 }
 
-// Den dynamischen Link erzeugen
-const htmllink = generateLink(); // Funktion aufrufen
+// Funktion zum Laden einer Woche
+function loadWeek(weekOffset, targetElementId) {
+    currentWeek += weekOffset; // Woche aktualisieren
+    const htmllink = generateLink(currentWeek);
+    loadHTML(htmllink, targetElementId);
+}
 
-// HTML-Datei laden und in ein Div mit der ID "content" einfügen
-loadHTML(htmllink, 'content');
+// Initialen Inhalt laden
+loadWeek(0, 'content');
+
+// Event-Listener für Buttons hinzufügen
+document.getElementById('prevButton').addEventListener('click', () => loadWeek(-1, 'content'));
+document.getElementById('nextButton').addEventListener('click', () => loadWeek(1, 'content'));
