@@ -21,7 +21,7 @@ function getCustomWeek() {
 function generateLink() {
     const weekNumber = getCustomWeek();
     const baseUrl = "./woche-";
-    const link = `<a href="${baseUrl}${weekNumber}.html"><font size='7'>⏺️</font></a>;
+    const link = `<a href="${baseUrl}${weekNumber}.html"><font size='7'>⏺️</font></a>´;
     document.getElementById("speiseplan-link2").innerHTML = link;
 }
 
