@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65897ff5-673a-4ca1-b91e-e1d4dee16c0e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/wochen/load_week.js" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/load_week.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wochen/woche-02.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-02.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wochen/woche-04.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-04.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wochen/woche-52.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-52.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wochen/woche-53.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-53.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wochen/woche-54.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
