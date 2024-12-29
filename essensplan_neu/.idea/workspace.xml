@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65897ff5-673a-4ca1-b91e-e1d4dee16c0e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/wochen/current_week.js" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/current_week.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/essensplan.py" beforeDir="false" afterPath="$PROJECT_DIR$/essensplan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wochen/#vorlage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wochen/woche-41.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-41.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
