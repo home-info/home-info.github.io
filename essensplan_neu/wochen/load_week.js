@@ -56,9 +56,17 @@ function loadWeek(weekOffset, targetElementId) {
     loadHTML(htmllink, targetElementId);
 }
 
+// Funktion zum Laden der aktuellen Woche
+function loadCurrentWeek(targetElementId) {
+    currentWeek = getCustomWeek(); // Woche neu berechnen
+    const htmllink = generateLink(currentWeek);
+    loadHTML(htmllink, targetElementId);
+}
+
 // Initialen Inhalt laden
 loadWeek(0, 'content');
 
 // Event-Listener für Buttons hinzufügen
 document.getElementById('prevButton').addEventListener('click', () => loadWeek(-1, 'content'));
 document.getElementById('nextButton').addEventListener('click', () => loadWeek(1, 'content'));
+document.getElementById('currentWeekButton').addEventListener('click', () => loadCurrentWeek('content'));
