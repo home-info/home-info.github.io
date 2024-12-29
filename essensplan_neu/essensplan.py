@@ -64,7 +64,7 @@ while current_date <= date(year, 12, 31):
 
 with open('index.html', 'a') as html:
     html.write(
-        "<footer id='footer'></footer>      <div id='copyright'>        <ul><!---<li>&copy; Untitled</li>-->          <!--          <li>Design: <a href=''>HTML5 UP</a></li>-->        </ul>      </div>  </div>  <script src='assets/js/jquery.min.js'></script>  <script src='assets/js/jquery.scrollex.min.js'></script>  <script src='assets/js/jquery.scrolly.min.js'></script>  <script src='assets/js/browser.min.js'></script>  <script src='assets/js/breakpoints.min.js'></script>  <script src='assets/js/util.js'></script>  <script src='assets/js/main.js'></script><script src='current_week.js'></script></body></html>")
+        "<footer id='footer'></footer>      <div id='copyright'>        <ul><!---<li>&copy; Untitled</li>-->          <!--          <li>Design: <a href=''>HTML5 UP</a></li>-->        </ul>      </div>  </div>  <script src='assets/js/jquery.min.js'></script>  <script src='assets/js/jquery.scrollex.min.js'></script>  <script src='assets/js/jquery.scrolly.min.js'></script>  <script src='assets/js/browser.min.js'></script>  <script src='assets/js/breakpoints.min.js'></script>  <script src='assets/js/util.js'></script>  <script src='assets/js/main.js'></script><!--<script src='current_week.js'></script>--></body></html>")
 
     # for filename in os.listdir('wochen/'):
     #     if filename.startswith("woche-"):
