@@ -46,6 +46,7 @@ function generateLink() {
     const weekNumber = getCustomWeek();
     const baseUrl = "./woche-";
     const link = "${baseUrl}${weekNumber}.html";
+    return link;
 }
 
 generateLink;
