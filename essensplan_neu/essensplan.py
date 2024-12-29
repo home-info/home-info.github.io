@@ -35,7 +35,7 @@ while current_date <= date(year, 12, 31):
 
     if not os.path.exists('wochen/woche-' + str(kalenderwoche) + '.html'):
         with open('wochen/woche-' + str(kalenderwoche) + '.html', 'w') as week_file:
-            week_file.write("<div id='main'>        <section class='post'>            <header class='major'>   <h1>"+str(kalenderwoche_int)+". Woche</h1>  <div id='controls'><button id='prevButton'>Vorherige Woche</button><button id='currentWeekButton'>Aktuelle Woche</button><button id='nextButton'>Nächste Woche</button></div>    </header>")
+            week_file.write("<header class='major'>   <h1>"+str(kalenderwoche_int)+". Woche</h1>  </header>")
     with open('wochen/woche-' + str(kalenderwoche) + '.html', 'a') as week_file:
         week_file.write("<h3>" + weekday_names[current_date.weekday()] + ", " + current_date.strftime("%d.%m.%Y") + "</h3>")
         week_file.write("<b>" + random_recipe['title'] + "</b><br>")
