@@ -1,15 +1,13 @@
 // Funktion zum Laden und Einfügen des HTML-Codes
 function loadHTML(filePath, targetElementId) {
-    // Abrufen der Datei mit fetch
     fetch(filePath)
         .then(response => {
             if (!response.ok) {
                 throw new Error(`HTTP-Fehler: ${response.status}`);
             }
-            return response.text(); // HTML-Inhalt als Text zurückgeben
+            return response.text();
         })
         .then(htmlContent => {
-            // Einfügen des HTML-Inhalts in das Ziel-Element
             const targetElement = document.getElementById(targetElementId);
             if (targetElement) {
                 targetElement.innerHTML = htmlContent;
@@ -45,11 +43,12 @@ function getCustomWeek() {
 function generateLink() {
     const weekNumber = getCustomWeek();
     const baseUrl = "./woche-";
-    const link = "${baseUrl}${weekNumber}.html";
+    const link = `${baseUrl}${weekNumber}.html`; // Korrigiert
     return link;
 }
 
-const htmllink = generateLink;
+// Den dynamischen Link erzeugen
+const htmllink = generateLink(); // Funktion aufrufen
 
-// Beispiel: HTML-Datei laden und in ein Div mit der ID "content" einfügen
+// HTML-Datei laden und in ein Div mit der ID "content" einfügen
 loadHTML(htmllink, 'content');
