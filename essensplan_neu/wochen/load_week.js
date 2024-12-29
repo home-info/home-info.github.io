@@ -49,5 +49,7 @@ function generateLink() {
     return link;
 }
 
+const htmllink = generateLink;
+
 // Beispiel: HTML-Datei laden und in ein Div mit der ID "content" einfügen
-loadHTML(generateLink, 'content');
+loadHTML(htmllink, 'content');
