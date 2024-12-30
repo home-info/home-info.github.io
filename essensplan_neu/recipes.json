@@ -925,7 +925,9 @@
         2
       ],
       "season_tag": [
-        0
+        1,
+        2,
+        3
       ],
       "source": "Mediterrane Küche (57)",
       "servings": 4,
@@ -1646,8 +1648,7 @@
         2
       ],
       "season_tag": [
-        3,
-        4
+        3
       ],
       "source": "Ordner / Winter / Hauptgerichte",
       "servings": 4,
@@ -1711,6 +1712,130 @@
         "Pfeffer",
         "Zimt",
         "Granatapfel"
+      ]
+    },
+    {
+      "title": "Hokkaido-Kürbis mit Datteln",
+      "time_tag": [
+        0
+      ],
+      "season_tag": [
+        3
+      ],
+      "source": "McVeg (59)",
+      "servings": 2,
+      "ingredients": [
+        "1 Kleiner Hokkaido",
+        "12 Getrocknete Datteln ohne Stein",
+        "1 Bund Petersilie",
+        "100 g Räuchertofu",
+        "250 g Reisnudeln",
+        "Sojasoße",
+        "Reiswein",
+        "Brühe"
+      ]
+    },
+    {
+      "title": "Karotten mit Erdnussmus",
+      "time_tag": [
+        0
+      ],
+      "season_tag": [
+        0
+      ],
+      "source": "McVeg (61)",
+      "servings": 2,
+      "ingredients": [
+        "1 Knoblauchzehe",
+        "300 g TK-Karotten",
+        "Erdnussmus crunchy",
+        "200 g Tofu natur",
+        "Kreuzkümmel",
+        "Sojasoße",
+        "Brühe"
+      ]
+    },
+    {
+      "title": "Thai-Karotten mit Kapern",
+      "time_tag": [
+        0
+      ],
+      "season_tag": [
+        3
+      ],
+      "source": "McVeg (67)",
+      "servings": 2,
+      "ingredients": [
+        "TK-Karotten",
+        "1 Große Rote Zwiebel",
+        "1 Kleines Glas Kapern",
+        "120 g Bulgur",
+        "Tamari",
+        "Reiswein",
+        "Currypaste "
+      ]
+    },
+    {
+      "title": "Tagliatelle mit Limetten und Physalis",
+      "time_tag": [
+        0
+      ],
+      "season_tag": [
+        2
+      ],
+      "source": "McVeg (73)",
+      "servings": 2,
+      "ingredients": [
+        "Limettensaft",
+        "200 g Physalis",
+        "2 cm Ingwer",
+        "250 g Tagliatelle",
+        "125 g Sahne"
+      ]
+    },
+    {
+      "title": "Spaghetti mit Thaibohnen",
+      "time_tag": [
+        0
+      ],
+      "season_tag": [
+        0
+      ],
+      "source": "McVeg (78)",
+      "servings": 2,
+      "ingredients": [
+        "1 Knoblauchzehe",
+        "300 g Buschbohnen",
+        "300 g Tomaten",
+        "250 g Spaghetti",
+        "100 ml Kokosmilch",
+        "Tamari",
+        "Currypaste",
+        "Cayennepfeffer"
+      ]
+    },
+    {
+      "title": "Tortillas mit Paprika und Mais",
+      "time_tag": [
+        0
+      ],
+      "season_tag": [
+        1,
+        2,
+        3
+      ],
+      "source": "McVeg (81)",
+      "servings": 2,
+      "ingredients": [
+        "1 Rote Zwiebel",
+        "2 Paprika",
+        "1 kleines Glas Mais",
+        "200 g Räuchertofu",
+        "4 Tortillas",
+        "Sahne",
+        "Tamari",
+        "Cayennepfeffer",
+        "Oregano"
       ]
     }
   ]
