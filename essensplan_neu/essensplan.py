@@ -13,7 +13,7 @@ with open('recipes.json', 'r') as file:
     database = json.load(file)
 file.close()
 
-year = 2024  # date.today().year
+year = 2025  # date.today().year
 current_date = date(year, 1, 1)
 weekday_names = ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"]
 season_code = {1: 4, 2: 4, 3: 1, 4: 1, 5: 1, 6: 2, 7: 2, 8: 2, 9: 3, 10: 3, 11: 3, 12: 4}
