@@ -56,7 +56,7 @@ while current_date <= date(year, 12, 31):
             
 
     last_meals_memory.append(random_recipe)
-    if len(last_meals_memory) >= 14:
+    if len(last_meals_memory) >= 28:
         del last_meals_memory[0]
 
     current_date += timedelta(days=1)
