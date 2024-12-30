@@ -162,10 +162,12 @@
     {
       "title": "Bester vegetarischer Nudelauflauf",
       "time_tag": [
-        0
+        2
       ],
       "season_tag": [
-        0
+        1,
+        3,
+        4
       ],
       "source": "Ordner / Winter / Hauptgerichte",
       "servings": 4,
@@ -330,7 +332,8 @@
       "source": "Vegan & Schnell (35)",
       "servings": 4,
       "ingredients": [
-        "2 Zwiebeln. 2 Rote Paprika",
+        "2 Zwiebeln",
+        "2 Rote Paprika",
         "Olivenöl",
         "2 Dosen gehackte Tomaten",
         "2 Dosen Kichererbsen",
@@ -736,7 +739,9 @@
         0
       ],
       "season_tag": [
-        0
+        1,
+        3,
+        4
       ],
       "source": "Vegan & Schnell (37)",
       "servings": 4,
@@ -760,7 +765,9 @@
         2
       ],
       "season_tag": [
-        0
+        1,
+        2,
+        3
       ],
       "source": "Vegan to go (187)",
       "servings": 4,
@@ -1107,6 +1114,603 @@
         "Trockener Weißwein",
         "Reiswein",
         "1 Hand Koriander"
+      ]
+    },
+    {
+      "title": "Brennnessel-Cremesuppe",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        1,
+        2
+      ],
+      "source": "VegRegSais (38)",
+      "servings": 4,
+      "ingredients": [
+        "6 Hand Brennnesselblätter",
+        "2 Zwiebeln",
+        "4 mehligkochende Kartoffeln",
+        "Brühe",
+        "1 Knoblauchzehe",
+        "Sahne",
+        "Baguette"
+      ]
+    },
+    {
+      "title": "Frühlingsrollen",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        1,
+        2
+      ],
+      "source": "VegRegSais (26)",
+      "servings": 4,
+      "ingredients": [
+        "Strudelteig",
+        "2 Möhren",
+        "Weißkraut",
+        "Lauch",
+        "Brennnesseln",
+        "2 Knoblauchzehen"
+      ]
+    },
+    {
+      "title": "Spargel mit Kartoffeln und Sauce hollandaise",
+      "time_tag": [
+        0
+      ],
+      "season_tag": [
+        1
+      ],
+      "source": "",
+      "servings": 4,
+      "ingredients": [
+        "Spargel",
+        "Kartoffeln",
+        "Sauce hollandaise"
+      ]
+    },
+    {
+      "title": "Gebratene Chinanudeln",
+      "time_tag": [
+        0
+      ],
+      "season_tag": [
+        0
+      ],
+      "source": "Vegan to go (77)",
+      "servings": 2,
+      "ingredients": [
+        "110 g Sojageschnetzeltes / Sojahack",
+        "1 EL Öl",
+        "1 TL Asia-Gewürz",
+        "Sojasoße",
+        "250 g Mie-Nudeln",
+        "Möhre",
+        "Paprika",
+        "100 g Chinakohl",
+        "1 Frühlingszwiebel",
+        "140 g Sojasprossen"
+      ]
+    },
+    {
+      "title": "Kleine Tofu-Taler mit Paprika-Tomaten-Salsa",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        1,
+        3,
+        4
+      ],
+      "source": "Vegan (108)",
+      "servings": 4,
+      "ingredients": [
+        "1 Rote Paprika",
+        "1 Grüne Paprika",
+        "1 Gelbe Paprika",
+        "1 Rote Peperoni",
+        "2 Zwiebeln",
+        "2 Knoblauchzehen",
+        "4 Tomaten",
+        "Petersilie",
+        "Rotweinessig",
+        "400 g Tofu Natur",
+        "2 Kleine Möhren",
+        "1 Stange Lauch",
+        "2 Frühlingszwiebeln",
+        "Koriander frisch",
+        "Salbei frisch",
+        "Speisestärke",
+        "50 g Weizenvollkornmehl"
+      ]
+    },
+    {
+      "title": "Gebratener Blumenkohl",
+      "time_tag": [
+        0
+      ],
+      "season_tag": [
+        3
+      ],
+      "source": "Ordner / Winter / Hauptgerichte",
+      "servings": 4,
+      "ingredients": [
+        "Blumenkohl",
+        "3 Eier",
+        "Paniermehl",
+        "Ofenkartoffeln / Salzkartoffeln"
+      ]
+    },
+    {
+      "title": "Frittata mit Salat",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        0
+      ],
+      "source": "slowly veggie 4 (86)",
+      "servings": 4,
+      "ingredients": [
+        "5 Eier",
+        "250 g Ricotta (Frischkäse)",
+        "70 g Würziger Reibekäse",
+        "120 g Blattsalat / Feldsalat",
+        "Thymian",
+        "Salz",
+        "Pfeffer",
+        "Öl",
+        "Essig",
+        "Zucker"
+      ]
+    },
+    {
+      "title": "Spargel im Schlafrock",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        1
+      ],
+      "source": "VegRegSais (42)",
+      "servings": 4,
+      "ingredients": [
+        "Pfannkuchen",
+        "Reibekäse",
+        "Spargel"
+      ]
+    },
+    {
+      "title": "Spinat mit Rosinen und Pinienkernen",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        1,
+        2
+      ],
+      "source": "Mediterrane Küche (78)",
+      "servings": 2,
+      "ingredients": [
+        "50 g Rosinen",
+        "Croûtons",
+        "Olivenöl",
+        "25 g Pinienkerne",
+        "500 g Junger Spinat",
+        "2 Knoblauchzehen",
+        "Brot"
+      ]
+    },
+    {
+      "title": "Mais-Kokos-Suppe",
+      "time_tag": [
+        0
+      ],
+      "season_tag": [
+        0
+      ],
+      "source": "Vegan & Schnell (59)",
+      "servings": 2,
+      "ingredients": [
+        "2 Dosen Mais",
+        "400 ml Kokosmilch",
+        "4 Frühlingszwiebeln",
+        "3 Knoblauchzehen",
+        "Olivenöl",
+        "Salz",
+        "Chili",
+        "Brühe",
+        "Limettensaft",
+        "frische Petersilie"
+      ]
+    },
+    {
+      "title": "Schnelle, würzige Bohnensuppe",
+      "time_tag": [
+        0
+      ],
+      "season_tag": [
+        0
+      ],
+      "source": "Vegetarische Küche (39)",
+      "servings": 2,
+      "ingredients": [
+        "1 Zwiebel",
+        "2 Knoblauchzehen",
+        "Chilipulver",
+        "850 g Kidney-Bohnen",
+        "500 ml Brühe",
+        "400 g Tomatenpüree"
+      ]
+    },
+    {
+      "title": "Asiagemüse mit Zuckerschoten und Möhren",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        2
+      ],
+      "source": "Vegan (74)",
+      "servings": 4,
+      "ingredients": [
+        "2 Knoblauchzehen",
+        "1 Stück Ingwer",
+        "1 Chilischote",
+        "2 Zucchini",
+        "400 g Möhren",
+        "400 g Zuckerschoten",
+        "gehackte Mandeln",
+        "Sesamöl",
+        "Zitronensaft",
+        "Zucker",
+        "Salz",
+        "400 ml Kokosmilch"
+      ]
+    },
+    {
+      "title": "Quiche à la Grain-Green-Bean",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        0
+      ],
+      "source": "Ordner / Frühling / Hauptgerichte",
+      "servings": 4,
+      "ingredients": [
+        "Pizzateig",
+        "2 Stangen Lauch",
+        "200 g Champignons",
+        "250 g Spinat",
+        "80 g Cashew-Kerne",
+        "200 g Tofu",
+        "Brühe",
+        "Hefeflocken",
+        "Zitronensaft",
+        "1 Tomate",
+        "100 g Erbsen",
+        "2 EL Pinienkerne"
+      ]
+    },
+    {
+      "title": "Basmatireis mit indischer Currysoße",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        1,
+        3,
+        4
+      ],
+      "source": "https://desikueche.wordpress.com/2020/10/29/mix-veg/",
+      "servings": 4,
+      "ingredients": [
+        "1 Zimtstange",
+        "Kardamom",
+        "2 Zwiebeln",
+        "5 Tomaten gewürfelt",
+        "70 g Cashew-Mus",
+        "Öl",
+        "Knoblauch",
+        "Ingwer",
+        "Salz",
+        "Chili",
+        "Kurkuma",
+        "Kreuzkümmel",
+        "Koriander",
+        "Garam Masala",
+        "150 g Blumenkohl",
+        "100 g Möhren",
+        "100 g Bohnen",
+        "50 g Erbsen",
+        "50 g Paprika",
+        "Reis (Beilage)"
+      ]
+    },
+    {
+      "title": "Weiße Bohnen in Basilikum-Tomaten-Soße",
+      "time_tag": [
+        0
+      ],
+      "season_tag": [
+        2
+      ],
+      "source": "Vegan for fit (142)",
+      "servings": 2,
+      "ingredients": [
+        "Sonnenblumenkerne",
+        "50 g Räuchertofu",
+        "1 Zwiebel",
+        "250 g gegarte weiße Bohnen",
+        "80 g Tomatenmark",
+        "Basilikum",
+        "1 Möhre"
+      ]
+    },
+    {
+      "title": "Paprikaschote gefüllt mit Süßkartoffel",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        2,
+        3
+      ],
+      "source": "Ordner / Sommer / Hauptgerichte",
+      "servings": 4,
+      "ingredients": [
+        "4 Gelbe Paprika",
+        "300 g Süßkartoffeln",
+        "80 g Rote Paprika-Würfel",
+        "1 Frühlingszwiebel",
+        "Sesam",
+        "Kardamom",
+        "Kreuzkümmel",
+        "Anis",
+        "Chilipulver",
+        "Basilikum",
+        "Petersilie",
+        "Kerbel",
+        "Koriander",
+        "Dill",
+        "250 g Joghurt",
+        "Wasabipaste",
+        "Kirschtomaten",
+        "geröstete Ciabatta-Würfel"
+      ]
+    },
+    {
+      "title": "Fruchtiger Linsensalat mit Trauben und Feta",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        1,
+        2
+      ],
+      "source": "Ordner / Sommer / Hauptgerichte",
+      "servings": 4,
+      "ingredients": [
+        "300 g Braune Linsen",
+        "100 g Walnüsse gehackt",
+        "Rote Trauben",
+        "4 Frühlingszwiebeln",
+        "200 g Feta",
+        "1 Bund Petersilie",
+        "Olivenöl",
+        "Balsamico",
+        "Honig",
+        "Limettensaft",
+        "Salz",
+        "Pfeffer"
+      ]
+    },
+    {
+      "title": "Linsensuppe mit Frühlingszwiebeln",
+      "time_tag": [
+        0
+      ],
+      "season_tag": [
+        1,
+        2
+      ],
+      "source": "VegRegSais (38)",
+      "servings": 2,
+      "ingredients": [
+        "1 Tasse Linsen",
+        "1 Bund Frühlingszwiebeln",
+        "Brühe",
+        "Schnittlauch"
+      ]
+    },
+    {
+      "title": "Fruchtiger Reissalat",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        1,
+        2
+      ],
+      "source": "slowly veggie (77)",
+      "servings": 4,
+      "ingredients": [
+        "250 g Vollkorn-Reis",
+        "Limettensaft",
+        "Apfelessig",
+        "körniger Senf",
+        "Agavendicksaft",
+        "Olivenöl",
+        "1 Zwiebel",
+        "50 g Erdnusskerne",
+        "Kokosraspeln",
+        "2 Lauchzwiebeln",
+        "1 Chilischote",
+        "Basilikum",
+        "Korianderblätter",
+        "3 Nektarinen"
+      ]
+    },
+    {
+      "title": "Geröstete Pastinaken-Karottensuppe",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        3,
+        4
+      ],
+      "source": "Ordner / Winter / Suppen",
+      "servings": 2,
+      "ingredients": [
+        "250 g Pastinaken",
+        "500 g Karotten",
+        "1 Zwiebel",
+        "1 Knoblauch",
+        "2 cm Ingwer",
+        "2 cm Kurkuma",
+        "Chilipulver",
+        "Olivenöl extra",
+        "Brühe",
+        "Condimento Bianco",
+        "Mandelmus weiß",
+        "Buchweizen geröstet",
+        "Blätterteigstangen / Beilage"
+      ]
+    },
+    {
+      "title": "Pappardelle mit Käsesoße, Radicchio und Apfel",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        2,
+        3
+      ],
+      "source": "Ordner / Sommer / Hauptgerichte",
+      "servings": 4,
+      "ingredients": [
+        "200 ml Sahne",
+        "200 g Gorgonzola",
+        "Salz",
+        "Pfeffer",
+        "Weißwein",
+        "400 g Pappardelle / Bandnudeln",
+        "1 Radicchio",
+        "2 Äpfel",
+        "Zitronensaft",
+        "50 g Haselnüsse geröstet gehackt"
+      ]
+    },
+    {
+      "title": "Linsen-Chili mit Kaffee",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        1,
+        3,
+        4
+      ],
+      "source": "Ordner / Winter / Hauptgerichte",
+      "servings": 2,
+      "ingredients": [
+        "1 Zwiebel",
+        "2 Knoblauchzehen",
+        "1 Karotte",
+        "1 Knolle Sellerie",
+        "Öl",
+        "Ingwer",
+        "170 g Rote Linsen",
+        "2 Tassen gebrühter Espresso",
+        "500 ml Brühe",
+        "400 g Passierte Tomaten",
+        "Chiliflocken",
+        "Kakaopulver",
+        "1 Kleine Dose Kidneybohnen",
+        "1 Kleine Dose Mais",
+        "Chili con Garne Gewürz",
+        "Salz",
+        "Pfeffer",
+        "frischer Koriander"
+      ]
+    },
+    {
+      "title": "Kürbisgulasch",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        3,
+        4
+      ],
+      "source": "Ordner / Winter / Hauptgerichte",
+      "servings": 4,
+      "ingredients": [
+        "1 Hokkaido",
+        "200 g Kartoffeln",
+        "1 Zwiebel",
+        "Öl",
+        "Tomatenmark",
+        "Gulaschgewürz",
+        "Kartoffelstärke"
+      ]
+    },
+    {
+      "title": "Tomatensuppe mit Mango",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        2,
+        3
+      ],
+      "source": "Ordner / Sommer / Suppen",
+      "servings": 4,
+      "ingredients": [
+        "800 g Rote & Gelbe Tomaten",
+        "2 Rote Zwiebeln",
+        "2 Knoblauchzehen",
+        "20 g Ingwer",
+        "200 g Mango",
+        "2 Zweige Majoran",
+        "Öl",
+        "Currypulver",
+        "1 Zweig Petersilie",
+        "geröstete Erdnüsse",
+        "Brühe",
+        "400 ml Kokosmilch",
+        "Zucker",
+        "Sojasoße",
+        "Pfeffer"
+      ]
+    },
+    {
+      "title": "Maronen-Zimt-Süppchen",
+      "time_tag": [
+        2
+      ],
+      "season_tag": [
+        4
+      ],
+      "source": "Ordner / Winter / Suppen",
+      "servings": 2,
+      "ingredients": [
+        "1 Zwiebel",
+        "1 Lauch",
+        "400 g Maronen geschält & gekocht",
+        "800 ml Brühe",
+        "1 Zimtstange",
+        "1 Lorbeerblatt",
+        "Salz",
+        "Pfeffer",
+        "Zimt",
+        "Granatapfel"
       ]
     }
   ]
