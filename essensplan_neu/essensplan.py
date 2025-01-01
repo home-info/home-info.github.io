@@ -27,7 +27,7 @@ with open('index.html', 'w') as html:
 
 last_meals_memory = []
 kalenderwoche_int = 0
-kalenderwoche = 0
+kalenderwoche = str(kalenderwoche_int).zfill(2)
 while current_date <= date(year, 12, 31):
     season_filter = [0, season_code[current_date.month]]
     time_filter = [1, 2] if current_date.weekday() > 3 else [0]
@@ -39,7 +39,9 @@ while current_date <= date(year, 12, 31):
         random_recipe = filtered_recipes[random.randint(0, len(filtered_recipes) - 1)]
 
     if current_date.weekday() == 4:
-        kalenderwoche_int = int(current_date.strftime("%V")) + 1
+        # kalenderwoche_int = int(current_date.strftime("%V")) #+ 1
+        # kalenderwoche = str(kalenderwoche_int).zfill(2)
+        _, kalenderwoche_int, _ = current_date.isocalendar()
         kalenderwoche = str(kalenderwoche_int).zfill(2)
 
     if not os.path.exists('wochen/woche-' + str(kalenderwoche) + '.html'):
