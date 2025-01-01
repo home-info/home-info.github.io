@@ -85,7 +85,7 @@ with open('statistics.csv', 'w') as stat_file:
     with open('recipes.json', 'r') as file:
         database = json.load(file)
     file.close()
-    stat_file.write('Rerezpt;Häufigkeit\n')
+    stat_file.write('Rezept;Häufigkeit\n')
     for recipe in database['recipes']:
         stat_file.write(recipe['title'] + ";" + str(full_recipe_list.count(recipe['title'])) + '\n')
 stat_file.close()
