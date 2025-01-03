@@ -5,64 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65897ff5-673a-4ca1-b91e-e1d4dee16c0e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/wochen/week.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/essensplan.py" beforeDir="false" afterPath="$PROJECT_DIR$/essensplan.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statistics.csv" beforeDir="false" afterPath="$PROJECT_DIR$/statistics.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-02.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-02.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-03.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-03.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-04.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-04.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-05.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-05.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-06.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-06.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-07.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-07.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-08.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-08.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-09.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-09.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-11.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-12.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-13.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-13.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-14.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-14.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-15.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-15.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-16.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-16.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-17.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-17.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-18.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-18.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-19.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-19.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-20.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-20.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-21.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-21.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-22.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-22.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-23.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-23.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-24.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-24.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-25.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-25.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-26.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-26.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-27.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-27.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-28.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-28.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-29.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-29.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-30.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-30.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-31.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-31.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-32.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-32.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-33.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-33.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-34.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-34.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-35.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-35.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-36.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-36.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-37.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-37.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-38.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-38.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-39.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-39.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-40.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-40.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-41.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-41.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-42.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-42.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-43.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-43.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-44.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-44.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-45.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-45.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-46.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-46.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-47.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-47.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-48.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-48.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-49.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-49.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-50.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-50.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-51.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-51.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-52.html" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/woche-52.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wochen/woche-53.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wochen/load_week.js" beforeDir="false" afterPath="$PROJECT_DIR$/wochen/load_week.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +44,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.essensplan">
+  <component name="RunManager" selected="Python.week">
     <configuration name="essensplan" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="essensplan_neu" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,8 +110,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.essensplan" />
         <item itemvalue="Python.week" />
+        <item itemvalue="Python.essensplan" />
         <item itemvalue="Python.statistics" />
       </list>
     </recent_temporary>

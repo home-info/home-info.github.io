@@ -26,8 +26,7 @@ with open('index.html', 'w') as html:
     html.close()
 
 last_meals_memory = []
-kalenderwoche_int = 0
-kalenderwoche = str(kalenderwoche_int).zfill(2)
+kalenderwoche = 0
 while current_date <= date(year, 12, 31):
     season_filter = [0, season_code[current_date.month]]
     time_filter = [1, 2] if current_date.weekday() > 3 else [0]
@@ -41,12 +40,11 @@ while current_date <= date(year, 12, 31):
     if current_date.weekday() == 4:
         # kalenderwoche_int = int(current_date.strftime("%V")) #+ 1
         # kalenderwoche = str(kalenderwoche_int).zfill(2)
-        _, kalenderwoche_int, _ = current_date.isocalendar()
-        kalenderwoche = str(kalenderwoche_int).zfill(2)
+        _, kalenderwoche, _ = current_date.isocalendar()
 
     if not os.path.exists('wochen/woche-' + str(kalenderwoche) + '.html'):
         with open('wochen/woche-' + str(kalenderwoche) + '.html', 'w') as week_file:
-            week_file.write("<header class='major'>   <h1>" + str(kalenderwoche_int) + ". Woche</h1>  </header>")
+            week_file.write("<header class='major'>   <h1>" + str(kalenderwoche) + ". Woche</h1>  </header>")
     with open('wochen/woche-' + str(kalenderwoche) + '.html', 'a') as week_file:
         week_file.write(
             "<h3>" + weekday_names[current_date.weekday()] + ", " + current_date.strftime("%d.%m.%Y") + "</h3>")
