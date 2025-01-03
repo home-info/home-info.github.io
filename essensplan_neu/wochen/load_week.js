@@ -19,7 +19,7 @@ function loadHTML(filePath, targetElementId) {
             }
         })
         .catch(error => {
-            console.error(`Fehler beim Laden des HTML-Codes: ${error.message}`);
+            console.error(`Fehler beim Laden des HTML-Codes...: ${error.message}`);
         });
 }
 
