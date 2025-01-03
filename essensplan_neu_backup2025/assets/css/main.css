@@ -4761,3 +4761,10 @@ input, select, textarea {
                 font-size: 16px;
             }
         }
+
+/* Überschreibt globale Button-Stile nur für .minimal-button */
+button.minimal-button {
+  all: unset; /* Setzt alle Standard- und globale Stile zurück */
+  font-size: 3rem; /* Schriftgröße erneut setzen */
+  cursor: pointer;
+}

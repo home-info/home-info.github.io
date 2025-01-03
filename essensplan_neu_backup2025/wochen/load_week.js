@@ -38,7 +38,7 @@ function getCustomWeek() {
     const firstWeekStart = new Date(jan4);
     firstWeekStart.setDate(jan4.getDate() - (jan4.getDay() || 7) + 1);
 
-    const weekNumber = Math.ceil(((referenceDate - firstWeekStart) / (7 * 24 * 60 * 60 * 1000)) + 1);
+    const weekNumber = Math.ceil((referenceDate - firstWeekStart) / (7 * 24 * 60 * 60 * 1000));
     return weekNumber;
 }
 
