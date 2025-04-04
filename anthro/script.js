@@ -8,14 +8,23 @@ document.addEventListener("DOMContentLoaded", function() {
       return response.json();
     })
     .then(events => {
+      // Den aktuellen Zeitpunkt holen
+      const currentDate = new Date();
+
+      // Nur zukünftige Veranstaltungen filtern
+      const upcomingEvents = events.filter(event => {
+        const eventDate = new Date(event.date);
+        return eventDate >= currentDate; // Wenn das Ereignis in der Zukunft liegt
+      });
+
       // Die Veranstaltungen nach Datum aufsteigend sortieren
-      events.sort((a, b) => new Date(a.date) - new Date(b.date));
+      upcomingEvents.sort((a, b) => new Date(a.date) - new Date(b.date));
 
       // Den Container für die Veranstaltungen holen
       const eventsContainer = document.getElementById('events-list');
 
       // Die Veranstaltungen dynamisch hinzufügen
-      events.forEach(event => {
+      upcomingEvents.forEach(event => {
         const eventElement = document.createElement('div');
         eventElement.classList.add('border-l-4', 'border-[var(--rot)]', 'pl-4', 'mb-4');
 
