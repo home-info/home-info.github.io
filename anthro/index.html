@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Anthroposophische Gesellschaft – Zweig Greifswald</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet">
-  <style>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Greifswalder Zweig – Anthroposophische Gesellschaft</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
     body {
       font-family: 'Titillium Web', sans-serif;
     }
@@ -14,53 +14,59 @@
       --rot: rgb(167, 47, 66);
       --weiß: #fdf9f8;
     }
-  </style>
+
+    </style>
 </head>
 <body class="bg-[var(--weiß)] text-gray-800">
 
-  <header class="bg-white shadow p-6 text-center">
+<header class="bg-white shadow p-6 text-center">
     <h1 class="text-3xl md:text-5xl font-semibold text-[var(--rot)]">Greifswalder Zweig</h1>
-    <h2 class="text-xl text-gray-700 mt-1">Anthroposophische Gesellschaft in Deutschland</h2>
-  </header>
+    <h2 class="text-xl text-gray-700 mt-1">Anthroposophische Gesellschaft</h2>
+</header>
 
-  <!-- Bild unter dem Header -->
-  <section>
+<!-- Bild unter dem Header -->
+<section>
     <img src="eldena.jpg" alt="Bild von Kerstin Riemer auf Pixabay" class="w-full h-auto object-cover">
-  </section>
+</section>
 
-  <main class="max-w-3xl mx-auto p-6 space-y-12">
+<main class="max-w-3xl mx-auto p-6 space-y-12">
 
     <!-- Begrüßung -->
     <section>
-      <h2 class="text-2xl font-semibold text-[var(--rot)] mb-2">Herzlich willkommen</h2>
-      <p>Wir heißen Sie herzlich willkommen auf der Website des Greifswalder Zweiges der Anthroposophischen Gesellschaft. Hier finden Sie Informationen zu unseren Veranstaltungen, regelmäßigen Treffen und zur Kontaktaufnahme.</p>
+        <h2 class="text-2xl font-semibold text-[var(--rot)] mb-2">Herzlich willkommen</h2>
+        <p>Wir heißen Sie herzlich willkommen auf der Website des Greifswalder Zweiges der Anthroposophischen
+            Gesellschaft. Hier finden Sie Informationen zu unseren Veranstaltungen, regelmäßigen Treffen und zur
+            Kontaktaufnahme.</p>
     </section>
 
     <!-- Kommende Veranstaltungen -->
-    <section>
-      <h2 class="text-2xl font-semibold text-[var(--rot)] mb-2">Kommende Veranstaltungen</h2>
-      <div class="space-y-4">
-        <div class="border-l-4 border-[var(--rot)] pl-4">
-          <p class="font-semibold">Fr. 18. April 2025, 19:00 Uhr</p>
-          <p class="italic">Vortrag: "Die Bedeutung der Imagination im modernen Leben"</p>
-          <p>Mit Dr. Maria Licht<br>Ort: Gemeinschaftsraum, Bahnhofstraße 12, Greifswald.</p>
-        </div>
-        <!-- Weitere Veranstaltungen folgen -->
-      </div>
+    <section id="events-list">
+        <h2 class="text-2xl font-semibold text-[var(--rot)] mb-2">Kommende Veranstaltungen</h2>
+        <!-- Veranstaltungen werden hier automatisch geladen -->
     </section>
 
     <!-- Regelmäßige Treffen -->
     <section>
-      <h2 class="text-2xl font-semibold text-[var(--rot)] mb-2">Regelmäßige Treffen</h2>
-      <p>Unsere Zweigabende finden jeden zweiten Dienstag im Monat um 19:00 Uhr statt. Wir treffen uns im Gemeinschaftsraum in der Bahnhofstraße 12, um gemeinsam zu lesen, zu diskutieren und im Austausch zu sein.</p>
+        <h2 class="text-2xl font-semibold text-[var(--rot)] mb-2">Regelmäßige Treffen</h2>
+        <p>Unsere Zweigabende finden jeden zweiten Dienstag im Monat um 19:00 Uhr statt. Wir treffen uns im
+            Gemeinschaftsraum in der Bahnhofstraße 12, um gemeinsam zu lesen, zu diskutieren und im Austausch zu
+            sein.</p>
     </section>
 
     <!-- Kontakt -->
     <section>
-      <h2 class="text-2xl font-semibold text-[var(--rot)] mb-2">Kontakt</h2>
-      <p>Bei Fragen oder Interesse an unseren Veranstaltungen erreichen Sie uns per E-Mail unter:</p>
-      <p class="font-semibold text-[var(--rot)] mt-2">kontakt@anthro-greifswald.de</p>
+        <h2 class="text-2xl font-semibold text-[var(--rot)] mb-2">Kontakt</h2>
+        <p>Bei Fragen oder Interesse an unseren Veranstaltungen erreichen Sie uns per E-Mail unter:</p>
+        <p class="font-semibold text-[var(--rot)] mt-2">kontakt@anthro-greifswald.de</p>
     </section>
-  </main>
+</main>
 
-  <footer class="text-center
+<footer class="text-center text-sm text-gray-500 mt-12 p-4">
+    © 2025 Anthroposophische Gesellschaft – Zweig Greifswald
+</footer>
+
+<!-- Das Skript laden -->
+<script src="script.js"></script>
+
+</body>
+</html>
