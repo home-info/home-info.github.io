@@ -23,9 +23,10 @@ document.addEventListener("DOMContentLoaded", function() {
         const formattedDate = formatDate(event.date);
 
         eventElement.innerHTML = `
-          <p class="font-semibold">${formattedDate}, ${event.time} Uhr</p>
-          <pclass="font-semibold">${event.title}</p>
-          <p class="italic">${event.subtitle}<br>Ort: ${event.location}</p>
+          <p class="font-semibold">${formattedDate} | ${event.time} Uhr</p>
+          <pclass="font-semibold text-[var(--rot)]">${event.title}</p>
+          <p class="italic">${event.subtitle}</p>
+          <p>Ort: ${event.location}</p>
         `;
 
         eventsContainer.appendChild(eventElement);
