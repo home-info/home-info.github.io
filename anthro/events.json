@@ -3,21 +3,21 @@
     "date": "2025-04-18",
     "time": "19:00",
     "title": "Vortrag: Die Bedeutung der Imagination im modernen Leben",
-    "speaker": "Dr. Maria Licht",
+    "subtitle": "Dr. Maria Licht",
     "location": "Gemeinschaftsraum, Bahnhofstraße 12, Greifswald"
   },
   {
     "date": "2025-05-05",
     "time": "18:00",
     "title": "Workshop: Einführung in die Anthroposophie",
-    "speaker": "Prof. Thomas Weber",
+    "subtitle": "Prof. Thomas Weber",
     "location": "Raum 101, Universität Greifswald"
   },
   {
     "date": "2025-04-06",
     "time": "19:30",
     "title": "Vortrag: Das Mysterium des Bösen und das Wiedererscheinen des Christus",
-    "speaker": "Frau Bartels",
+    "subtitle": "Frau Bartels",
     "location": "Gemeinschaftsraum, Bahnhofstraße 12, Greifswald"
   }
 ]
