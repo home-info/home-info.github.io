@@ -17,29 +17,35 @@ document.addEventListener("DOMContentLoaded", function() {
         return eventDate >= currentDate; // Wenn das Ereignis in der Zukunft liegt
       });
 
-      // Die Veranstaltungen nach Datum aufsteigend sortieren
-      upcomingEvents.sort((a, b) => new Date(a.date) - new Date(b.date));
-
       // Den Container für die Veranstaltungen holen
       const eventsContainer = document.getElementById('events-list');
 
-      // Die Veranstaltungen dynamisch hinzufügen
-      upcomingEvents.forEach(event => {
-        const eventElement = document.createElement('div');
-        eventElement.classList.add('border-l-4', 'border-[var(--rot)]', 'pl-4', 'mb-4');
+      // Wenn keine Veranstaltungen vorhanden sind
+      if (upcomingEvents.length === 0) {
+        // Text anzeigen, wenn keine Veranstaltungen geplant sind
+        eventsContainer.innerHTML = `<p>Aktuell sind keine Veranstaltungen geplant. Wir würden uns freuen, Sie bei einer zukünftigen Veranstaltung begrüßen zu dürfen. Nehmen Sie gerne Kontakt zu uns auf, um mehr zu erfahren.</p>`;
+      } else {
+        // Die Veranstaltungen nach Datum aufsteigend sortieren
+        upcomingEvents.sort((a, b) => new Date(a.date) - new Date(b.date));
 
-        // Datum und Wochentag im Format TT.MM.JJJJ (mit Wochentag) umformatieren
-        const formattedDate = formatDate(event.date);
+        // Die Veranstaltungen dynamisch hinzufügen
+        upcomingEvents.forEach(event => {
+          const eventElement = document.createElement('div');
+          eventElement.classList.add('border-l-4', 'border-[var(--rot)]', 'pl-4', 'mb-4');
 
-        eventElement.innerHTML = `
-          <p class="font-semibold">${formattedDate} | ${event.time} Uhr</p>
-          <p class="font-semibold text-[var(--rot)]">${event.title}</p>
-          <p class="italic">${event.subtitle}</p>
-          <p>Ort: ${event.location}</p>
-        `;
+          // Datum und Wochentag im Format TT.MM.JJJJ (mit Wochentag) umformatieren
+          const formattedDate = formatDate(event.date);
 
-        eventsContainer.appendChild(eventElement);
-      });
+          eventElement.innerHTML = `
+            <p class="font-semibold">${formattedDate} | ${event.time} Uhr</p>
+            <p class="font-semibold text-[var(--rot)]">${event.title}</p>
+            <p class="italic">Mit ${event.subtitle}</p>
+            <p>Ort: ${event.location}</p>
+          `;
+
+          eventsContainer.appendChild(eventElement);
+        });
+      }
     })
     .catch(error => {
       console.error('Fehler beim Laden der Veranstaltungen:', error);
