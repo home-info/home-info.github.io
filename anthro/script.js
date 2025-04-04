@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
           eventElement.innerHTML = `
             <p class="font-semibold">${formattedDate} | ${event.time} Uhr</p>
             <p class="font-semibold text-[var(--rot)]">${event.title}</p>
-            <p class="italic">Mit ${event.subtitle}</p>
+            <p class="italic">${event.subtitle}</p>
             <p>Ort: ${event.location}</p>
           `;
 
