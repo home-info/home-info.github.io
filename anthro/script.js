@@ -35,7 +35,8 @@ document.addEventListener("DOMContentLoaded", function() {
         // Die Veranstaltungen dynamisch hinzufügen
         upcomingEvents.forEach(event => {
           const eventElement = document.createElement('div');
-          eventElement.classList.add('border-l-4', 'border-[var(--rot)]', 'pl-4', 'mb-4');
+          //eventElement.classList.add('border-l-4', 'border-[var(--rot)]', 'pl-4', 'mb-4');
+          eventElement.classList.add('border-l-4', 'border-[var(--rot)]', 'pl-4', 'mb-4', 'shadow-md', 'bg-white', 'rounded');
 
           // Datum und Wochentag im Format TT.MM.JJJJ (mit Wochentag) umformatieren
           const formattedDate = formatDate(event.date);
