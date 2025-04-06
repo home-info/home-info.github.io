@@ -46,9 +46,9 @@ document.addEventListener("DOMContentLoaded", function () {
           const formattedDate = formatDate(event.date);
 
           eventElement.innerHTML = `
-            <p class="font-semibold">${formattedDate} | ${event.time} Uhr</p>
+            <p class="font-bold">${formattedDate} | ${event.time} Uhr</p>
             <p class="font-semibold text-[var(--akzent)]">${event.title}</p>
-            <p><span style="font-family: 'Noto Color Emoji';">ℹ</span> ${event.subtitle}</p>
+            <p class="font-semibold">${event.subtitle}</p>
             <p>${event.location}</p>
           `;
 
@@ -91,7 +91,7 @@ function openModal(event) {
     <p class="mb-1">${event.subtitle}</p>
     <p class="mb-1"><span style="font-family: 'Noto Color Emoji';">🗓️</span> ${formattedDate} | ${event.time} Uhr</p>
     <p class="mb-3"><span style="font-family: 'Noto Color Emoji';">📍</span> ${event.location}</p>
-    ${event.description ? `<p class="text-gray-700">${event.description}</p>` : ''}
+    ${event.description ? `<p class="text-gray-700"><span style="font-family: 'Noto Color Emoji';">ℹ️</span> ${event.description}</p>` : ''}
   `;
 
   modal.classList.remove('hidden');
