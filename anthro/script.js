@@ -40,10 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
             'shadow-md',
             'bg-white',
             'rounded',
-            'p-4',
-            'cursor-pointer',
-            'hover:bg-gray-50',
-            'transition'
+            'p-4'
           );
 
           const formattedDate = formatDate(event.date);
@@ -55,14 +52,13 @@ document.addEventListener("DOMContentLoaded", function () {
             <p>Ort: ${event.location}</p>
           `;
 
-          // Modal-Öffnung bei Klick
+          // Modal nur öffnen, wenn Beschreibung vorhanden ist
           if (event.description) {
-  eventElement.classList.add('cursor-pointer', 'hover:bg-gray-50', 'transition');
-  eventElement.addEventListener('click', () => {
-    openModal(event);
-  });
-}
-
+            eventElement.classList.add('cursor-pointer', 'hover:bg-gray-50', 'transition');
+            eventElement.addEventListener('click', () => {
+              openModal(event);
+            });
+          }
 
           eventsContainer.appendChild(eventElement);
         });
@@ -73,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-// Funktion zum Formatieren des Datums inkl. Wochentag
+// Funktion zum Formatieren des Datums inkl. deutschem Wochentag
 function formatDate(dateString) {
   const date = new Date(dateString);
   const weekdays = ["Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag"];
