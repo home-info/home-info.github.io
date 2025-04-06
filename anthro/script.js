@@ -36,7 +36,19 @@ document.addEventListener("DOMContentLoaded", function() {
         upcomingEvents.forEach(event => {
           const eventElement = document.createElement('div');
           //eventElement.classList.add('border-l-4', 'border-[var(--akzent)]', 'pl-4', 'mb-4');
-          eventElement.classList.add('border-l-4', 'border-[var(--akzent)]', 'pl-4', 'mb-4', 'shadow-md', 'bg-white', 'rounded', 'p-4');
+          //eventElement.classList.add('border-l-4', 'border-[var(--akzent)]', 'pl-4', 'mb-4', 'shadow-md', 'bg-white', 'rounded', 'p-4');
+            eventElement.classList.add(
+    'border-l-4',
+    'border-[var(--rot)]',
+    'mb-4',
+    'shadow-md',
+    'bg-white',
+    'rounded',
+    'p-4',
+    'cursor-pointer',
+    'hover:bg-gray-50',
+    'transition'
+  );
 
           // Datum und Wochentag im Format TT.MM.JJJJ (mit Wochentag) umformatieren
           const formattedDate = formatDate(event.date);
@@ -47,6 +59,14 @@ document.addEventListener("DOMContentLoaded", function() {
             <p class="italic">${event.subtitle}</p>
             <p>Ort: ${event.location}</p>
           `;
+
+                  // Klick-Event hinzufügen
+          eventElement.addEventListener('click', () => {
+            openModal(event);
+          });
+
+  eventsContainer.appendChild(eventElement);
+});
 
           eventsContainer.appendChild(eventElement);
         });
@@ -72,3 +92,24 @@ function formatDate(dateString) {
 
   return `${weekday}, ${day}.${month}.${year}`; // Wochentag vor dem Datum hinzufügen
 }
+
+function openModal(event) {
+  const modal = document.getElementById('event-modal');
+  const modalContent = document.getElementById('modal-content');
+
+  const formattedDate = formatDate(event.date);
+
+  modalContent.innerHTML = `
+    <h2 class="text-2xl font-semibold mb-2">${event.title}</h2>
+    <p class="mb-1">${formattedDate}, ${event.time} Uhr</p>
+    <p class="mb-1">${event.subtitle}</p>
+    <p class="mb-3">Ort: ${event.location}</p>
+    ${event.description ? `<p class="text-gray-700">${event.description}</p>` : ''}
+  `;
+
+  modal.classList.remove('hidden');
+}
+
+document.getElementById('close-modal').addEventListener('click', () => {
+  document.getElementById('event-modal').classList.add('hidden');
+});
