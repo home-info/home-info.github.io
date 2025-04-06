@@ -56,9 +56,13 @@ document.addEventListener("DOMContentLoaded", function () {
           `;
 
           // Modal-Öffnung bei Klick
-          eventElement.addEventListener('click', () => {
-            openModal(event);
-          });
+          if (event.description) {
+  eventElement.classList.add('cursor-pointer', 'hover:bg-gray-50', 'transition');
+  eventElement.addEventListener('click', () => {
+    openModal(event);
+  });
+}
+
 
           eventsContainer.appendChild(eventElement);
         });
