@@ -48,8 +48,8 @@ document.addEventListener("DOMContentLoaded", function () {
           eventElement.innerHTML = `
             <p class="font-semibold">${formattedDate} | ${event.time} Uhr</p>
             <p class="font-semibold text-[var(--akzent)]">${event.title}</p>
-            <p class="italic">${event.subtitle}</p>
-            <p>Ort: ${event.location}</p>
+            <p>${event.subtitle}</p>
+            <p>${event.location}</p>
           `;
 
           // Modal nur öffnen, wenn Beschreibung vorhanden ist
@@ -90,7 +90,7 @@ function openModal(event) {
     <h2 class="text-2xl font-semibold text-[var(--akzent)] mb-2">${event.title}</h2>
     <p class="font-semibold mb-1">${formattedDate} | ${event.time} Uhr</p>
     <p class="mb-1">${event.subtitle}</p>
-    <p class="mb-3">Ort: ${event.location}</p>
+    <p class="mb-3">${event.location}</p>
     ${event.description ? `<p class="text-gray-700">${event.description}</p>` : ''}
   `;
 
