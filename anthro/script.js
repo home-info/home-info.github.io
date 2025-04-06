@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
         eventElement.classList.add(
           'border-l-4',
           'border-[var(--akzent)]',
-          'mb-4',
+          'mb-6',
           'shadow-md',
           'bg-white',
           'rounded',
