@@ -35,15 +35,15 @@ document.addEventListener("DOMContentLoaded", function() {
         // Die Veranstaltungen dynamisch hinzufügen
         upcomingEvents.forEach(event => {
           const eventElement = document.createElement('div');
-          //eventElement.classList.add('border-l-4', 'border-[var(--rot)]', 'pl-4', 'mb-4');
-          eventElement.classList.add('border-l-4', 'border-[var(--rot)]', 'pl-4', 'mb-4', 'shadow-md', 'bg-white', 'rounded', 'p-4');
+          //eventElement.classList.add('border-l-4', 'border-[var(--akzent)]', 'pl-4', 'mb-4');
+          eventElement.classList.add('border-l-4', 'border-[var(--akzent)]', 'pl-4', 'mb-4', 'shadow-md', 'bg-white', 'rounded', 'p-4');
 
           // Datum und Wochentag im Format TT.MM.JJJJ (mit Wochentag) umformatieren
           const formattedDate = formatDate(event.date);
 
           eventElement.innerHTML = `
             <p class="font-semibold">${formattedDate} | ${event.time} Uhr</p>
-            <p class="font-semibold text-[var(--rot)]">${event.title}</p>
+            <p class="font-semibold text-[var(--akzent)]">${event.title}</p>
             <p class="italic">${event.subtitle}</p>
             <p>Ort: ${event.location}</p>
           `;
