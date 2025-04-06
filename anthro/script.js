@@ -46,9 +46,9 @@ document.addEventListener("DOMContentLoaded", function () {
           const formattedDate = formatDate(event.date);
 
           eventElement.innerHTML = `
-            <p class="font-semibold">${formattedDate} | ${event.time} Uhr</p>
+            <p class="mb-2 font-semibold">${formattedDate} | ${event.time} Uhr</p>
             <p class="font-semibold text-[var(--akzent)]">${event.title}</p>
-            <p class="mb-3">${event.subtitle}</p>
+            <p class="mb-2">${event.subtitle}</p>
             <p>${event.location}</p>
           `;
 
