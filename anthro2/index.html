@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Greifswalder Zweig — Anthroposophische Gesellschaft in Deutschland</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet"
+    />
+    <style>
+        body {
+            font-family: 'Titillium Web', sans-serif;
+        }
+
+        :root {
+            --akzent: rgb(134, 117, 25);
+            --hintergrund: rgb(255, 246, 236);
+        }
+    </style>
+</head>
+
+<body class="bg-[var(--hintergrund)] text-gray-800">
+
+    <header class="bg-white shadow p-6 text-center">
+        <h1 class="text-3xl md:text-5xl font-semibold text-[var(--akzent)]">Greifswalder Zweig</h1>
+        <h2 class="text-xl text-gray-700 mt-1">Anthroposophische Gesellschaft in Deutschland</h2>
+    </header>
+
+    <!-- Bild unter dem Header -->
+<section>
+    <img src="wiesen.jpg" alt="Wiesen bei Greifswald" class="w-full h-auto object-cover"
+         title="Caspar David Friedrich: »Wiesen bei Greifswald«">
+</section>
+
+    <main class="max-w-3xl mx-auto p-6 space-y-12">
+
+        <!-- Begrüßung -->
+        <section>
+            <h2 class="text-2xl font-semibold text-[var(--akzent)] mb-2">Herzlich willkommen</h2>
+            <p>
+                Wir heißen Sie herzlich willkommen auf der Website des Greifswalder Zweiges der
+                Anthroposophischen Gesellschaft. Hier finden Sie Informationen zu unseren
+                Veranstaltungen, regelmäßigen Treffen und zur Kontaktaufnahme.
+            </p>
+        </section>
+
+        <!-- Kommende Veranstaltungen -->
+        <section id="events-list">
+            <h2 class="text-2xl font-semibold text-[var(--akzent)] mb-2">Veranstaltungen & Empfehlungen</h2>
+            <!-- Veranstaltungen werden hier automatisch geladen -->
+        </section>
+
+        <!-- Regelmäßige Treffen -->
+        <section>
+            <h2 class="text-2xl font-semibold text-[var(--akzent)] mb-2">Zweigarbeit & Arbeitsgruppen</h2>
+            <p>
+                Unsere Zweigabende finden jeden zweiten Dienstag im Monat um 19:00 Uhr statt. Wir
+                treffen uns im Gemeinschaftsraum in der Bahnhofstraße 12, um gemeinsam zu lesen, zu
+                diskutieren und im Austausch zu sein.
+            </p>
+        </section>
+
+        <!-- Kontakt -->
+        <section>
+            <h2 class="text-2xl font-semibold text-[var(--akzent)] mb-2">Kontakt</h2>
+            <p>
+                Bei Fragen oder Interesse an unseren Veranstaltungen oder der Zweigarbeit erreichen
+                Sie uns per E-Mail unter:
+                <span class="font-semibold text-[var(--akzent)] mt-2">
+                    kontakt@anthroposophie-greifswald.de
+                </span>
+            </p>
+        </section>
+    </main>
+
+    <!-- Modal Overlay -->
+    <div id="event-modal" class="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50 hidden">
+        <div class="bg-white rounded-lg shadow-lg max-w-xl w-full p-6 relative">
+            <button id="close-modal" class="absolute top-2 right-3 text-gray-500 hover:text-black text-2xl font-bold">&times;</button>
+            <div id="modal-content">
+                <!-- Dynamischer Inhalt wird hier eingefügt -->
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center text-sm text-gray-500 mt-12 p-4">
+        © 2025 Greifswalder Zweig — Anthroposophische Gesellschaft in Deutschland
+    </footer>
+
+    <!-- Das Skript laden -->
+    <script src="script.js"></script>
+
+</body>
+</html>
