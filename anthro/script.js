@@ -9,13 +9,17 @@ document.addEventListener("DOMContentLoaded", function() {
     })
     .then(events => {
       // Den aktuellen Zeitpunkt holen
-      const currentDate = new Date();
+      const now = new Date();
+      const currentDate = new Date(now.getFullYear(), now.getMonth(), now.getDate()); // Heute um 00:00 Uhr
+
 
       // Nur zukünftige Veranstaltungen filtern
       const upcomingEvents = events.filter(event => {
-        const eventDate = new Date(event.date);
-        return eventDate >= currentDate; // Wenn das Ereignis in der Zukunft liegt
+      const eventDate = new Date(event.date);
+      // Event auch anzeigen, wenn es heute ist
+      return eventDate >= currentDate;
       });
+
 
       // Den Container für die Veranstaltungen holen
       const eventsContainer = document.getElementById('events-list');
