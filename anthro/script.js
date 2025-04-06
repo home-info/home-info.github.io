@@ -88,9 +88,9 @@ function openModal(event) {
 
   modalContent.innerHTML = `
     <h2 class="text-2xl font-semibold text-[var(--akzent)] mb-2">${event.title}</h2>
-    <p class="font-semibold mb-1">${formattedDate} | ${event.time} Uhr</p>
     <p class="mb-1">${event.subtitle}</p>
-    <p class="mb-3">${event.location}</p>
+    <p class="font-semibold mb-1"><span style="font-family: 'Noto Color Emoji';">🗓️</span> ${formattedDate} | ${event.time} Uhr</p>
+    <p class="mb-3"><span style="font-family: 'Noto Color Emoji';">📍</span> ${event.location}</p>
     ${event.description ? `<p class="text-gray-700">${event.description}</p>` : ''}
   `;
 
