@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
           eventsContainer.appendChild(eventElement);
-        });
+        };
       }
     })
     .catch(error => {
