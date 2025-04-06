@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   // Die JSON-Datei mit den Veranstaltungseinträgen laden
   fetch('events.json')
     .then(response => {
@@ -8,49 +8,44 @@ document.addEventListener("DOMContentLoaded", function() {
       return response.json();
     })
     .then(events => {
-      // Den aktuellen Zeitpunkt holen
       const now = new Date();
       const currentDate = new Date(now.getFullYear(), now.getMonth(), now.getDate()); // Heute um 00:00 Uhr
 
-
-      // Nur zukünftige Veranstaltungen filtern
+      // Nur zukünftige Veranstaltungen (einschließlich heute) filtern
       const upcomingEvents = events.filter(event => {
-      const eventDate = new Date(event.date);
-      // Event auch anzeigen, wenn es heute ist
-      return eventDate >= currentDate;
+        const eventDate = new Date(event.date);
+        return eventDate >= currentDate;
       });
 
-
-      // Den Container für die Veranstaltungen holen
       const eventsContainer = document.getElementById('events-list');
 
-      // Wenn keine Veranstaltungen vorhanden sind
       if (upcomingEvents.length === 0) {
-        // Text anzeigen, wenn keine Veranstaltungen geplant sind
-        eventsContainer.innerHTML = `<p>Aktuell sind keine Veranstaltungen geplant. Wir würden uns freuen, Sie bei einer zukünftigen Veranstaltung begrüßen zu dürfen. Nehmen Sie gerne Kontakt zu uns auf, um mehr zu erfahren.</p>`;
+        // Nachricht anzeigen, wenn keine Veranstaltungen vorhanden sind
+        eventsContainer.innerHTML = `
+          <p>
+            Aktuell sind keine Veranstaltungen geplant. Wir würden uns freuen, Sie bei einer zukünftigen Veranstaltung begrüßen zu dürfen.
+            Nehmen Sie gerne Kontakt zu uns auf, um mehr zu erfahren.
+          </p>`;
       } else {
-        // Die Veranstaltungen nach Datum aufsteigend sortieren
+        // Veranstaltungen nach Datum sortieren
         upcomingEvents.sort((a, b) => new Date(a.date) - new Date(b.date));
 
-        // Die Veranstaltungen dynamisch hinzufügen
+        // Veranstaltungen dynamisch erstellen
         upcomingEvents.forEach(event => {
           const eventElement = document.createElement('div');
-          //eventElement.classList.add('border-l-4', 'border-[var(--akzent)]', 'pl-4', 'mb-4');
-          //eventElement.classList.add('border-l-4', 'border-[var(--akzent)]', 'pl-4', 'mb-4', 'shadow-md', 'bg-white', 'rounded', 'p-4');
-            eventElement.classList.add(
-    'border-l-4',
-    'border-[var(--rot)]',
-    'mb-4',
-    'shadow-md',
-    'bg-white',
-    'rounded',
-    'p-4',
-    'cursor-pointer',
-    'hover:bg-gray-50',
-    'transition'
-  );
+          eventElement.classList.add(
+            'border-l-4',
+            'border-[var(--rot)]',
+            'mb-4',
+            'shadow-md',
+            'bg-white',
+            'rounded',
+            'p-4',
+            'cursor-pointer',
+            'hover:bg-gray-50',
+            'transition'
+          );
 
-          // Datum und Wochentag im Format TT.MM.JJJJ (mit Wochentag) umformatieren
           const formattedDate = formatDate(event.date);
 
           eventElement.innerHTML = `
@@ -60,16 +55,13 @@ document.addEventListener("DOMContentLoaded", function() {
             <p>Ort: ${event.location}</p>
           `;
 
-                  // Klick-Event hinzufügen
+          // Modal-Öffnung bei Klick
           eventElement.addEventListener('click', () => {
             openModal(event);
           });
 
-  eventsContainer.appendChild(eventElement);
-});
-
           eventsContainer.appendChild(eventElement);
-        };
+        });
       }
     })
     .catch(error => {
@@ -77,26 +69,21 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-// Funktion zum Umformatieren des Datums und Hinzufügen des Wochentags
+// Funktion zum Formatieren des Datums inkl. Wochentag
 function formatDate(dateString) {
-  const date = new Date(dateString); // Datum im ISO-Format (YYYY-MM-DD) umwandeln
-
-  // Wochentag auf Deutsch ermitteln
+  const date = new Date(dateString);
   const weekdays = ["Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag"];
-  const weekday = weekdays[date.getDay()]; // Wochentag ermitteln (0 = Sonntag, 1 = Montag, etc.)
-
-  // Datum im Format TT.MM.JJJJ umformatieren
-  const day = String(date.getDate()).padStart(2, '0'); // Tag (immer 2 Stellen)
-  const month = String(date.getMonth() + 1).padStart(2, '0'); // Monat (immer 2 Stellen)
-  const year = date.getFullYear(); // Jahr
-
-  return `${weekday}, ${day}.${month}.${year}`; // Wochentag vor dem Datum hinzufügen
+  const weekday = weekdays[date.getDay()];
+  const day = String(date.getDate()).padStart(2, '0');
+  const month = String(date.getMonth() + 1).padStart(2, '0');
+  const year = date.getFullYear();
+  return `${weekday}, ${day}.${month}.${year}`;
 }
 
+// Funktion zum Öffnen des Modals mit Veranstaltungsdetails
 function openModal(event) {
   const modal = document.getElementById('event-modal');
   const modalContent = document.getElementById('modal-content');
-
   const formattedDate = formatDate(event.date);
 
   modalContent.innerHTML = `
@@ -110,6 +97,7 @@ function openModal(event) {
   modal.classList.remove('hidden');
 }
 
+// Modal schließen
 document.getElementById('close-modal').addEventListener('click', () => {
   document.getElementById('event-modal').classList.add('hidden');
 });
