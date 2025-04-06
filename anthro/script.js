@@ -1,5 +1,5 @@
-document.addEventListener("DOMContentLoaded", function () {
-  // Die JSON-Datei mit den Veranstaltungseinträgen laden
+document.addEventListener("DOMContentLoaded", () => {
+  // JSON-Datei mit Veranstaltungseinträgen laden
   fetch('events.json')
     .then(response => {
       if (!response.ok) {
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const now = new Date();
       const currentDate = new Date(now.getFullYear(), now.getMonth(), now.getDate()); // Heute um 00:00 Uhr
 
-      // Nur zukünftige Veranstaltungen (einschließlich heute) filtern
+      // Nur zukünftige (einschließlich heutige) Veranstaltungen filtern
       const upcomingEvents = events.filter(event => {
         const eventDate = new Date(event.date);
         return eventDate >= currentDate;
@@ -26,50 +26,53 @@ document.addEventListener("DOMContentLoaded", function () {
             Aktuell sind keine Veranstaltungen geplant. Wir würden uns freuen, Sie bei einer zukünftigen Veranstaltung begrüßen zu dürfen.
             Nehmen Sie gerne Kontakt zu uns auf, um mehr zu erfahren.
           </p>`;
-      } else {
-        // Veranstaltungen nach Datum sortieren
-        upcomingEvents.sort((a, b) => new Date(a.date) - new Date(b.date));
-
-        // Veranstaltungen dynamisch erstellen
-        upcomingEvents.forEach(event => {
-          const eventElement = document.createElement('div');
-          eventElement.classList.add(
-            'border-l-4',
-            'border-[var(--akzent)]',
-            'mb-4',
-            'shadow-md',
-            'bg-white',
-            'rounded',
-            'p-4'
-          );
-
-          const formattedDate = formatDate(event.date);
-
-          eventElement.innerHTML = `
-            <p class="mb-2 font-semibold">${formattedDate} | ${event.time} Uhr</p>
-            <p class="font-semibold text-[var(--akzent)]">${event.title}</p>
-            <p class="mb-2">${event.subtitle}</p>
-            <p>${event.location}</p>
-          `;
-
-          // Modal nur öffnen, wenn Beschreibung vorhanden ist
-          if (event.description) {
-            eventElement.classList.add('cursor-pointer', 'hover:bg-gray-50', 'transition');
-            eventElement.addEventListener('click', () => {
-              openModal(event);
-            });
-          }
-
-          eventsContainer.appendChild(eventElement);
-        });
+        return;
       }
+
+      // Veranstaltungen nach Datum sortieren
+      upcomingEvents.sort((a, b) => new Date(a.date) - new Date(b.date));
+
+      // Veranstaltungen dynamisch erstellen
+      upcomingEvents.forEach(event => {
+        const eventElement = document.createElement('div');
+        eventElement.classList.add(
+          'border-l-4',
+          'border-[var(--akzent)]',
+          'mb-4',
+          'shadow-md',
+          'bg-white',
+          'rounded',
+          'p-4'
+        );
+
+        const formattedDate = formatDate(event.date);
+
+        eventElement.innerHTML = `
+          <p class="mb-2 font-semibold">${formattedDate} | ${event.time} Uhr</p>
+          <p class="font-semibold text-[var(--akzent)]">${event.title}</p>
+          <p class="mb-2">${event.subtitle}</p>
+          <p>${event.location}</p>
+        `;
+
+        // Modal nur öffnen, wenn Beschreibung vorhanden ist
+        if (event.description) {
+          eventElement.classList.add('cursor-pointer', 'hover:bg-gray-50', 'transition');
+          eventElement.addEventListener('click', () => openModal(event));
+        }
+
+        eventsContainer.appendChild(eventElement);
+      });
     })
     .catch(error => {
       console.error('Fehler beim Laden der Veranstaltungen:', error);
     });
 });
 
-// Funktion zum Formatieren des Datums inkl. deutschem Wochentag
+/**
+ * Datum formatieren mit deutschem Wochentag
+ * @param {string} dateString - Datum im ISO-Format
+ * @returns {string} Formatiertes Datum
+ */
 function formatDate(dateString) {
   const date = new Date(dateString);
   const weekdays = ["Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag"];
@@ -77,10 +80,14 @@ function formatDate(dateString) {
   const day = String(date.getDate()).padStart(2, '0');
   const month = String(date.getMonth() + 1).padStart(2, '0');
   const year = date.getFullYear();
+
   return `${weekday}, ${day}.${month}.${year}`;
 }
 
-// Funktion zum Öffnen des Modals mit Veranstaltungsdetails
+/**
+ * Öffnet das Modal mit Veranstaltungsdetails
+ * @param {Object} event - Veranstaltungsobjekt
+ */
 function openModal(event) {
   const modal = document.getElementById('event-modal');
   const modalContent = document.getElementById('modal-content');
