@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
       upcomingEvents.forEach(event => {
         const eventElement = document.createElement('div');
         eventElement.classList.add(
-          'border-l-6',
+          'border-l-2',
           'border-[var(--akzent)]',
           'mb-4',
           'shadow-md',
