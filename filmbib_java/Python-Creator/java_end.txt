@@ -1,0 +1,63 @@
+        	];
+
+      function search() {
+        var input = document.getElementById('search-input').value;
+        var results = document.getElementById('results');
+        results.innerHTML = '';
+
+        if (input == '') {
+        	document.getElementById('search-input').setAttribute('placeholder', 'ACHTUNG: Sie müssen zuerst einen Suchbegriff eingeben!');
+
+        } else {
+
+	        for (var i = 0; i < all_films.length; i++) {
+	          if (all_films[i].title.toLowerCase().includes(input.toLowerCase())) {
+	            var row = results.insertRow();
+	            var titleCell = row.insertCell(0);
+	            var infoCell = row.insertCell(1);
+	            var locationCell = row.insertCell(2);
+	            titleCell.innerHTML = all_films[i].title;
+	            infoCell.innerHTML = all_films[i].info;
+	            locationCell.innerHTML = all_films[i].loc;
+	          } else {
+		          if (all_films[i].info.toLowerCase().includes(input.toLowerCase())) {
+		            var row = results.insertRow();
+		            var titleCell = row.insertCell(0);
+		            var infoCell = row.insertCell(1);
+		            var locationCell = row.insertCell(2);
+		            titleCell.innerHTML = all_films[i].title;
+		            infoCell.innerHTML = all_films[i].info;
+		            locationCell.innerHTML = all_films[i].loc;
+		          }
+		        }
+	          //else {
+	          	//document.getElementById('search-input').value = '';
+	          	//document.getElementById('aufforderung').innerHTML = 'Keine Ergebnisse für Ihre letzte Suchanfrage ...';
+	          	//document.getElementById('search-input').setAttribute('placeholder', 'Bitte geben Sie einen anderen Suchbegriff ein.');}
+	  		}
+	  	document.getElementById('aufforderung').scrollIntoView();
+	  	document.getElementById('search-input').value = '';
+	  	document.getElementById('search-input').setAttribute('placeholder', 'Geben Sie einen neuen Suchbegriff ein.');
+	  	document.getElementById('searchbutton').innerHTML = 'Neue Suche starten'
+	  }
+  	};
+
+</script>
+
+
+
+
+</div>
+
+
+		<!-- Scripts -->
+			<script src='assets/js/jquery.min.js'></script>
+			<script src='assets/js/jquery.scrollex.min.js'></script>
+			<script src='assets/js/jquery.scrolly.min.js'></script>
+			<script src='assets/js/browser.min.js'></script>
+			<script src='assets/js/breakpoints.min.js'></script>
+			<script src='assets/js/util.js'></script>
+			<script src='assets/js/main.js'></script>
+
+	</body>
+</html>
